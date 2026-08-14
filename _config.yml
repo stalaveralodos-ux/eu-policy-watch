@@ -1,0 +1,11 @@
+title: EU Policy Watch
+description: Tracking the EU legislative files that matter, one brief at a time.
+baseurl: "/eu-policy-watch"
+url: "https://stalaveralodos-ux.github.io"
+
+collections:
+  briefs:
+    output: true
+    permalink: /briefs/:name/
+
+markdown: kramdown

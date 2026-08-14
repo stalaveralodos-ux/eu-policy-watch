@@ -296,3 +296,105 @@ th {
 }
 .topic-tag.topic-digital { background: var(--navy); }
 .topic-tag.topic-energy { background: var(--green); }
+
+/* --- Brief: dynamic accordion identity --- */
+html { scroll-behavior: smooth; }
+
+.brief-date { font-size: 0.82rem; color: var(--muted); }
+
+.tldr-box {
+  background: var(--panel);
+  border: 1px solid var(--blue);
+  border-left: 4px solid var(--blue);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.2rem 0 1.5rem;
+}
+.tldr-label {
+  font-family: var(--font-impact);
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.tldr-box p { margin: 0.3rem 0 0; font-size: 0.95rem; color: var(--text); }
+
+.jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.jump-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--navy-2);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  text-decoration: none;
+}
+.jump-nav a:hover { background: var(--navy); color: #fff; border-color: var(--navy); text-decoration: none; }
+
+.accordion { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.5rem; }
+
+.accordion-item {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.9rem 1.1rem;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.02rem;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  transition: background 0.15s ease;
+}
+.accordion-item summary::-webkit-details-marker { display: none; }
+.accordion-item summary::after {
+  content: "+";
+  margin-left: auto;
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  color: var(--blue);
+  transition: transform 0.2s ease;
+}
+.accordion-item[open] summary::after { transform: rotate(45deg); }
+.accordion-item summary:hover { background: var(--cream); }
+
+.accordion-num {
+  font-family: var(--font-impact);
+  font-size: 0.8rem;
+  color: #fff;
+  background: var(--blue);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.accordion-body {
+  padding: 0 1.1rem 1.1rem 3.3rem;
+  font-size: 0.92rem;
+  color: var(--text);
+  animation: fadeIn 0.25s ease;
+}
+.accordion-body p { margin: 0; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

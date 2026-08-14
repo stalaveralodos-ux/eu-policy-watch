@@ -1,4 +1,3 @@
-[actors_index.md](https://github.com/user-attachments/files/31082147/actors_index.md)
 ---
 layout: default
 title: Actors

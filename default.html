@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}EU Policy Watch</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">EU Policy Watch</a>
+    <nav class="site-nav">
+      <a href="{{ '/briefs/' | relative_url }}">Briefs</a>
+      <a href="https://stalaveralodos-ux.github.io/s.talaveralodos">Portfolio &rarr;</a>
+    </nav>
+  </header>
+
+  <main class="site-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>Silvia Talavera Lodos · <a href="https://stalaveralodos-ux.github.io/s.talaveralodos">Main portfolio</a></p>
+  </footer>
+</body>
+</html>

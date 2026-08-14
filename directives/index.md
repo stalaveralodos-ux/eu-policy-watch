@@ -5,7 +5,7 @@ permalink: /directives/
 ---
 ## Directives
 
-Un mini-ecosistema por cada expediente: estado, cronología, actores, análisis político y transposición nacional.
+A mini-ecosystem for each case: status, timeline, key players, political analysis and national implementation.
 
 <div class="info-grid">
   <div class="info-card">
@@ -18,7 +18,7 @@ Un mini-ecosistema por cada expediente: estado, cronología, actores, análisis 
   </div>
   <div class="info-card">
     <div class="info-label">EU Taxonomy</div>
-    <div class="info-value"><a href="{{ '/directives/taxonomy/' | relative_url }}">Reglamento de taxonomía verde &rarr;</a></div>
+    <div class="info-value"><a href="{{ '/directives/taxonomy/' | relative_url }}">EU taxonomy for sustainable activities &rarr;</a></div>
   </div>
   <div class="info-card">
     <div class="info-label">ESRS</div>

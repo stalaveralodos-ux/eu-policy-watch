@@ -1,0 +1,155 @@
+:root {
+  --cream: #f4f1e8;
+  --linen: #dedbcc;
+  --espresso: #3c2a1e;
+  --text: #3c2a1e;
+  --muted: #7a6f5d;
+  --line: #d8d2c0;
+  --rust: #a13a1e;
+  --olive: #79744e;
+  --honey: #d9992f;
+  --porcelain: #6d95a8;
+  --max-width: 700px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--cream);
+  line-height: 1.65;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--espresso);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+.site-nav a {
+  margin-left: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover { color: var(--rust); }
+
+.site-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.site-content h1 {
+  font-size: 1.7rem;
+  margin-bottom: 0.4rem;
+  color: var(--espresso);
+}
+
+.site-content h2 {
+  font-size: 1.15rem;
+  margin-top: 2.2rem;
+  color: var(--espresso);
+}
+
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+a { color: var(--rust); }
+
+/* --- Lista de briefs en /briefs/ --- */
+.brief-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.brief-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.brief-list a {
+  color: var(--espresso);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.brief-list a:hover { color: var(--rust); }
+
+.brief-list .brief-list-date {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* --- Etiqueta de categoria, coloreada por tema --- */
+.topic-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--muted);
+}
+
+.topic-tag.topic-digital   { background: var(--rust); }
+.topic-tag.topic-energy    { background: var(--olive); }
+.topic-tag.topic-migration { background: var(--porcelain); }
+.topic-tag.topic-trade     { background: var(--honey); color: var(--espresso); }
+.topic-tag.topic-defence   { background: var(--espresso); }
+
+/* --- Pagina de brief individual --- */
+.brief-header { margin-bottom: 1.5rem; }
+
+.brief-date {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.6rem;
+}
+
+.brief-content p { margin: 1rem 0; }
+.brief-content strong { color: var(--espresso); }
+
+.brief-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+}

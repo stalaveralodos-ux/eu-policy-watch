@@ -3,81 +3,81 @@ layout: directive
 title: "CSDDD — Corporate Sustainability Due Diligence Directive"
 short_name: CSDDD
 status_tag: sustainability
-status: "En vigor, modificada por el Omnibus I. Fase de transposición nacional en curso."
-phase: "Transposición nacional"
-latest_document: "Directiva (UE) 2026/470, publicada en el DOUE el 26 de febrero de 2026"
-next_deadline: "26 de julio de 2028: plazo límite de transposición nacional"
+status: "In force, as amended by Omnibus I. National transposition phase currently underway."
+phase: "Transposition into national law"
+latest_document: "Directive (EU) 2026/470, published in the Official Journal of the European Union on 26 February 2026"
+next_deadline: "26 July 2028: deadline for transposition into national law"
 date_updated: 2026-08-14
 timeline:
   - date: "23 feb 2022"
-    text: "La Comisión publica la propuesta original de directiva sobre diligencia debida corporativa."
+    text: "The Commission has published the original proposal for a directive on corporate due diligence."
     done: true
   - date: "1 jun 2023"
-    text: "El Parlamento adopta su posición negociadora inicial."
+    text: "Parliament adopts its initial negotiating position."
     done: true
-  - date: "14 dic 2023"
-    text: "Acuerdo provisional en trílogo entre Parlamento y Consejo sobre el texto original."
+  - date: "14 dec 2023"
+    text: "Provisional agreement reached in the trilogue between Parliament and the Council on the original text."
     done: true
   - date: "24 abr / 24 may 2024"
-    text: "Parlamento y Consejo adoptan formalmente la CSDDD original."
+    text: "Parliament and the Council formally adopt the original CSDDD."
     done: true
   - date: "25 jul 2024"
-    text: "La Directiva 2024/1760 entra en vigor."
+    text: "Directive 2024/1760 enters into force."
     done: true
   - date: "dic 2025"
-    text: "Paquete Omnibus I: acuerdo en trílogo sobre una reducción sustancial del alcance."
+    text: "Omnibus Package I: agreement reached in the trilogue on a substantial reduction in scope."
     done: true
   - date: "24 feb 2026"
-    text: "El Consejo da la aprobación final al texto modificado por el Omnibus I."
+    text: "The Council gives its final approval to the text as amended by Omnibus I."
     done: true
   - date: "26 feb 2026"
-    text: "Publicación de la Directiva (UE) 2026/470 en el DOUE. Entra en vigor el 18 de marzo."
+    text: "Publication of Directive (EU) 2026/470 in the Official Journal of the European Union. It enters into force on 18 March."
     done: true
   - date: "26 jul 2028"
-    text: "Plazo límite para que los Estados miembros transpongan las medidas del Omnibus I."
+    text: "Deadline for Member States to transpose the measures in Omnibus I."
     current: true
   - date: "26 jul 2029"
-    text: "Fecha de aplicación general para las empresas dentro del ámbito revisado."
+    text: "Date of general application for businesses within the revised scope."
   - date: "1 ene 2030"
-    text: "Aplicación de las obligaciones de reporting del artículo 16 para ejercicios fiscales iniciados a partir de esta fecha."
+    text: "Application of the reporting obligations set out in Article 16 for financial years commencing on or after this date."
 ---
 
 ## Overview político-institucional
 
-La CSDDD original nació de una propuesta de la Comisión en febrero de 2022 y completó su recorrido legislativo en 2024 con un ámbito de aplicación relativamente amplio (empresas de más de 1.000 empleados y 450 millones de euros de facturación mundial). Ese texto ya no es el que rige: el paquete de simplificación Omnibus I, adoptado formalmente en febrero de 2026, ha recortado el alcance del expediente en torno a un 70%, ha eliminado el deber de implementación armonizada de la diligencia debida y ha modificado el régimen de responsabilidad civil hacia una fórmula más armonizada entre Estados miembros. El umbral de aplicación ahora se sitúa en empresas de más de 5.000 empleados y 1.500 millones de euros de facturación.
+The original CSDDD arose from a proposal by the Commission in February 2022 and completed its legislative process in 2024 with a relatively broad scope of application (companies with more than 1,000 employees and a global turnover of 450 million euros). That text is no longer in force: the Omnibus I simplification package, formally adopted in February 2026, has reduced the scope of the legislation by around 70 per cent, removed the obligation for harmonised implementation of due diligence, and amended the civil liability regime to provide for a more harmonised approach across Member States. The threshold for application now applies to companies with more than 5,000 employees and a turnover of 1.5 billion euros.
 
-Leer el texto de 2024 como si siguiera vigente es, a estas alturas, el error más habitual y más costoso al analizar este expediente.
+Reading the 2024 text as if it were still in force is, at this stage, the most common and most costly mistake made when analysing this case.
 
-## Mapa de actores
+## Map of Actors
 
-**Comisión Europea.** DG JUST ha liderado el expediente desde su origen; DG FISMA y DG GROW han tenido un peso creciente en la fase Omnibus, en línea con el giro hacia competitividad que ha marcado la revisión.
+**European Commission.** DG JUST has led the dossier from the outset; DG FISMA and DG GROW have played an increasingly significant role in the Omnibus phase, in line with the shift towards competitiveness that has characterised the review.
 
-**Parlamento Europeo.** Lara Wolters (S&D, Países Bajos) fue la ponente de la CSDDD original en la Comisión de Asuntos Jurídicos (JURI). Para el paquete Omnibus I, JURI nombró ponente a Jörgen Warborn (PPE, Suecia), un cambio de ponente entre el texto original y su revisión que refleja el desplazamiento del centro de gravedad político hacia el PPE en este mandato.
+**European Parliament.** Lara Wolters (S&D, Netherlands) was the rapporteur for the original CSDDD in the Committee on Legal Affairs (JURI). For the Omnibus I package, JURI appointed Jörgen Warborn (EPP, Sweden) as rapporteur – a change of rapporteur between the original text and its revised version, reflecting the shift in the political centre of gravity towards the EPP during this parliamentary term.
 
-**Consejo.** La Presidencia polaca del Consejo (primer semestre de 2025) acordó el mandato negociador del Consejo para el Omnibus en junio de 2025, antes de que las negociaciones interinstitucionales concluyeran en diciembre de ese año.
+**Note.** The Polish Presidency of the Council (first half of 2025) agreed on the Council’s negotiating mandate for the Omnibus in June 2025, before the interinstitutional negotiations were concluded in December of that year.
 
 **Stakeholders externos.** [Verificar y ampliar: posiciones actualizadas de BusinessEurope, CSR Europe, la Coalición Europea por la Justicia Corporativa (ECCJ) y otras ONG tras la adopción final de febrero de 2026.]
 
-## Análisis político avanzado
+## Advanced political analysis
 
-El expediente muestra una dinámica clara de recalibración: lo que en 2022-2024 se debatía en términos de derechos humanos y responsabilidad ambiental se discute en 2026 mayoritariamente en términos de competitividad y carga de cumplimiento. La votación de JURI de octubre de 2025 sobre el informe Omnibus fue inicialmente rechazada por el pleno, lo que retrasó el calendario y muestra que el consenso dentro del propio Parlamento no fue automático incluso para el texto ya simplificado.
+The dossier reveals a clear shift in focus: issues that were debated in 2022–2024 in terms of human rights and environmental responsibility are now being discussed in 2026 primarily in terms of competitiveness and the compliance burden. The JURI vote in October 2025 on the Omnibus report was initially rejected by the plenary, which delayed the timetable and shows that consensus within Parliament itself was not automatic, even for the already simplified text.
 
 [Verificar y ampliar: bloques ideológicos concretos por grupo político, países que actuaron como "campeones" o "bloqueadores" durante la negociación del Omnibus, y riesgos de posteriores intentos de renegociación antes de la fecha de aplicación de 2029.]
 
-## Impacto por sector
+## Impact by sector
 
-El cambio de umbral (de 1.000/450M a 5.000 empleados/1.500M de facturación) excluye a un número significativo de empresas medianas que estaban preparándose para cumplir con el texto original. [Verificar y ampliar: impacto diferenciado en finanzas, manufactura, retail y agricultura, con fuentes sectoriales concretas.]
+The change in the threshold (from 1,000/450M to 5,000 employees/1,500M in turnover) excludes a significant number of medium-sized companies that were preparing to comply with the original text. [To be verified and expanded upon: varying impact on the finance, manufacturing, retail and agriculture sectors, with specific sector-based sources.]
 
-## Transposición por país
+## Transposition by country
 
-Pendiente de desarrollo verificado país por país. Ver plantilla en `/transposition/csddd/`.
+Pending verification on a country-by-country basis. See template in `/transposition/csddd/`.
 
-## Enlaces externos
+## External links
 
-- Comisión Europea, página oficial de seguimiento de la CSDDD (commission.europa.eu)
-- European Parliament Legislative Train Schedule, ficha del Omnibus I (europarl.europa.eu)
-- Corporate Justice (ECCJ), nota de prensa sobre la adopción final, febrero 2026
+- European Commission, official CSDDD monitoring page (commission.europa.eu)
+- European Parliament Legislative Train Schedule, Omnibus I entry (europarl.europa.eu)
+- Corporate Justice (ECCJ), press release on final adoption, February 2026
 
-## Alertas relacionadas
+## Related alerts
 
-Ver `/alerts/2026/` para las últimas actualizaciones sobre este expediente.
+See `/alerts/2026/` for the latest updates on this dossier.**

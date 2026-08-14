@@ -5,7 +5,7 @@ permalink: /actors/
 ---
 ## Actors
 
-Mapa de instituciones y actores clave por expediente.
+Map of key institutions and stakeholders by case.
 
 ### Comisión
 - [DG JUST]({{ '/actors/commission/dg-just/' | relative_url }}) — CSDDD

@@ -1,12 +1,13 @@
 ---
-layout: default
-title: Home
+layout: actor
+title: "DG JUST — Dirección General de Justicia y Consumidores"
+institution: Comisión Europea
+role: "Dirección responsable de la CSDDD desde la propuesta original de 2022 hasta la fase de transposición actual."
+permalink: /actors/commission/dg-just/
 ---
 
-# EU Policy Watch
+DG JUST ha liderado el expediente CSDDD desde su origen. Durante la revisión Omnibus (2025-2026), DG FISMA y DG GROW han ganado peso en el proceso, reflejando el giro del expediente hacia argumentos de competitividad.
 
-A running log of the legislative files shaping Brussels in 2026, tracked as they move through Parliament and Council.
+**Expedientes relacionados:** [CSDDD](/directives/csddd/)
 
-Written by Silvia Talavera Lodos, PhD in Human Rights and Global Politics (Sant'Anna, Pisa), currently working across EU policy, advocacy and public affairs.
-
-[Browse all briefs &rarr;](/briefs/)
+[Verificar y ampliar: composición actual del equipo técnico, declaraciones públicas recientes del Comisario responsable.]

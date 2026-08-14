@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="actor-page">
+  <header>
+    <span class="tag tag-neutral">{{ page.institution }}</span>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class="info-grid">
+    {% if page.role %}
+    <div class="info-card">
+      <div class="info-label">Rol</div>
+      <div class="info-value">{{ page.role }}</div>
+    </div>
+    {% endif %}
+    {% if page.position %}
+    <div class="info-card">
+      <div class="info-label">Posición política</div>
+      <div class="info-value">{{ page.position }}</div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="directive-content">
+    {{ content }}
+  </div>
+
+  <footer class="brief-footer">
+    <a href="{{ '/actors/' | relative_url }}">&larr; Back to all actors</a>
+  </footer>
+</article>

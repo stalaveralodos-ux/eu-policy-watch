@@ -34,19 +34,12 @@ body {
 }
 
 .site-title {
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-size: 2.1rem;
   color: var(--espresso);
   text-decoration: none;
   letter-spacing: 0.01em;
-  display: flex;
-  align-items: center;
-}
-
-.site-logo {
-  height: 28px;
-  width: auto;
-  display: block;
 }
 
 .site-nav a {

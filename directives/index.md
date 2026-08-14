@@ -1,4 +1,3 @@
-[directives_index.md](https://github.com/user-attachments/files/31081799/directives_index.md)
 ---
 layout: default
 title: Directives

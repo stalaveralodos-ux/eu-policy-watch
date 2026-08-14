@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="brief">
+  <header class="brief-header">
+    <p class="brief-topic">{{ page.topic }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="brief-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+  </header>
+
+  <div class="brief-content">
+    {{ content }}
+  </div>
+
+  <footer class="brief-footer">
+    <a href="/briefs/">&larr; Back to all briefs</a>
+  </footer>
+</article>
+
+<style>
+.brief-topic {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+.brief-date {
+  font-size: 0.85rem;
+  color: #888;
+}
+.brief-footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+</style>

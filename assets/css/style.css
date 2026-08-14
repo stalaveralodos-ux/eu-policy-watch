@@ -1,32 +1,37 @@
 :root {
-  --bg: #f7f8fa;
+  --cream: #f7f4ec;
   --panel: #ffffff;
-  --navy: #0d2b4e;
-  --navy-light: #1b4272;
-  --text: #1f2937;
-  --muted: #6b7280;
-  --line: #e3e6eb;
-  --green: #2f6b4f;
+  --navy: #16223f;
+  --navy-2: #1e3358;
+  --blue: #7b9cc4;
+  --gray: #b7b7bc;
+  --text: #16223f;
+  --muted: #6b6f76;
+  --line: #e2ded2;
+  --green: #3f6b4f;
   --green-bg: #e7f0ea;
-  --red: #b02a2a;
-  --red-bg: #fbe9e9;
-  --gray-tag: #6b7280;
+  --red: #a83a3a;
+  --red-bg: #f8e9e9;
   --max-width: 1100px;
+
+  --font-sans: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Lora", Georgia, "Times New Roman", serif;
+  --font-impact: "Anton", "Arial Narrow", sans-serif;
 }
 
 * { box-sizing: border-box; }
 
 body {
-  font-family: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-sans);
   color: var(--text);
-  background: var(--bg);
-  line-height: 1.6;
+  background: var(--cream);
+  line-height: 1.65;
   margin: 0;
   padding: 0;
   font-size: 15px;
 }
 
-a { color: var(--navy-light); text-decoration: none; }
+a { color: var(--navy-2); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* --- Header --- */
@@ -40,24 +45,27 @@ a:hover { text-decoration: underline; }
 }
 
 .site-title {
-  font-family: "Sacramento", cursive;
+  font-family: var(--font-impact);
   font-weight: 400;
-  font-size: 1.9rem;
-  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cream);
   text-decoration: none;
 }
-.site-title:hover { text-decoration: none; opacity: 0.9; }
+.site-title:hover { text-decoration: none; color: var(--blue); }
 
 .site-nav a {
   margin-left: 1.3rem;
-  font-size: 0.88rem;
-  color: #cfd9e6;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--gray);
   text-decoration: none;
   font-weight: 500;
 }
-.site-nav a:hover { color: #fff; text-decoration: none; }
+.site-nav a:hover { color: var(--cream); text-decoration: none; }
 
-/* --- Dashboard layout: sidebar / content / alerts --- */
+/* --- Dashboard layout --- */
 .dashboard {
   display: grid;
   grid-template-columns: 220px 1fr 280px;
@@ -81,9 +89,11 @@ a:hover { text-decoration: underline; }
 }
 
 .sidebar h3 {
-  font-size: 0.75rem;
-  text-transform: uppercase;
+  font-family: var(--font-impact);
+  font-weight: 400;
+  font-size: 0.78rem;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--muted);
   margin: 1.4rem 0 0.5rem;
 }
@@ -97,7 +107,7 @@ a:hover { text-decoration: underline; }
   display: block;
   padding: 0.25rem 0;
 }
-.sidebar a:hover { color: var(--navy-light); text-decoration: none; }
+.sidebar a:hover { color: var(--navy-2); text-decoration: none; }
 
 .rail {
   padding: 1.5rem 1rem;
@@ -105,9 +115,11 @@ a:hover { text-decoration: underline; }
 }
 
 .rail h3 {
-  font-size: 0.75rem;
-  text-transform: uppercase;
+  font-family: var(--font-impact);
+  font-weight: 400;
+  font-size: 0.78rem;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--muted);
   margin: 0 0 0.8rem;
 }
@@ -117,9 +129,30 @@ a:hover { text-decoration: underline; }
   min-width: 0;
 }
 
-.site-content h1 { font-size: 1.6rem; margin-bottom: 0.3rem; color: var(--navy); }
-.site-content h2 { font-size: 1.15rem; margin-top: 2rem; color: var(--navy); }
-.site-content h3 { font-size: 1rem; margin-top: 1.5rem; color: var(--navy); }
+.site-content h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-bottom: 0.3rem;
+  color: var(--navy);
+  line-height: 1.2;
+}
+.site-content h2 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 2.1rem;
+  color: var(--navy);
+}
+.site-content h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 1.5rem;
+  color: var(--navy-2);
+}
 
 .site-footer {
   max-width: var(--max-width);
@@ -130,41 +163,29 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
 }
 
-/* --- Tags --- */
+/* --- Tags, impact font for punch --- */
 .tag {
   display: inline-block;
-  font-size: 0.68rem;
+  font-family: var(--font-impact);
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.15rem 0.55rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 4px;
   color: #fff;
-  background: var(--gray-tag);
-  margin-right: 0.3rem;
+  background: var(--gray);
 }
 .tag-institutional { background: var(--navy); }
 .tag-sustainability { background: var(--green); }
 .tag-alert { background: var(--red); }
-.tag-neutral { background: var(--gray-tag); }
+.tag-neutral { background: var(--gray); color: var(--navy); }
 
-/* --- Status / progress bar for legislative phase --- */
-.progress-track {
-  display: flex;
-  gap: 4px;
-  margin: 0.8rem 0 0.3rem;
-}
-.progress-step {
-  flex: 1;
-  height: 8px;
-  border-radius: 3px;
-  background: var(--line);
-}
-.progress-step.done { background: var(--green); }
+/* --- Progress bar --- */
+.progress-track { display: flex; gap: 4px; margin: 0.8rem 0 0.3rem; }
+.progress-step { flex: 1; height: 8px; border-radius: 3px; background: var(--line); }
+.progress-step.done { background: var(--blue); }
 .progress-step.current { background: var(--navy); }
-.progress-label {
-  font-size: 0.78rem;
-  color: var(--muted);
-}
 
 /* --- Alert box --- */
 .alert-box {
@@ -182,7 +203,7 @@ a:hover { text-decoration: underline; }
   margin-top: 0.2rem;
 }
 
-/* --- Info cards / overview grid --- */
+/* --- Info cards --- */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -198,34 +219,28 @@ a:hover { text-decoration: underline; }
   padding: 0.9rem 1rem;
 }
 .info-card .info-label {
-  font-size: 0.72rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--muted);
-  margin-bottom: 0.25rem;
+  font-weight: 600;
+  color: var(--blue);
+  margin-bottom: 0.3rem;
 }
 .info-card .info-value { font-size: 0.92rem; color: var(--text); }
 
-/* --- Clean tables --- */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.88rem;
-}
-th, td {
-  text-align: left;
-  padding: 0.55rem 0.7rem;
-  border-bottom: 1px solid var(--line);
-}
+/* --- Tables --- */
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.88rem; }
+th, td { text-align: left; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--line); }
 th {
+  font-family: var(--font-sans);
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
-/* --- Horizontal timeline --- */
+/* --- Timeline --- */
 .timeline { margin: 1.2rem 0; }
 .timeline-item {
   display: flex;
@@ -249,7 +264,7 @@ th {
 .timeline-date { font-size: 0.78rem; color: var(--muted); min-width: 90px; }
 .timeline-text { font-size: 0.9rem; }
 
-/* --- Brief list (legacy /briefs/) --- */
+/* --- Brief list --- */
 .brief-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
 .brief-list li {
   display: flex;
@@ -258,23 +273,26 @@ th {
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--line);
 }
-.brief-list a { color: var(--navy); text-decoration: none; font-weight: 600; }
-.brief-list a:hover { color: var(--navy-light); }
+.brief-list a { color: var(--navy); text-decoration: none; font-weight: 600; font-family: var(--font-serif); }
+.brief-list a:hover { color: var(--navy-2); }
 .brief-list .brief-list-date {
   margin-left: auto;
   font-size: 0.8rem;
   color: var(--muted);
   white-space: nowrap;
+  font-family: var(--font-sans);
 }
 .topic-tag {
   display: inline-block;
+  font-family: var(--font-impact);
+  font-weight: 400;
   font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.15rem 0.5rem;
+  letter-spacing: 0.04em;
+  padding: 0.18rem 0.55rem;
   border-radius: 999px;
   color: #fff;
-  background: var(--gray-tag);
+  background: var(--gray);
 }
 .topic-tag.topic-digital { background: var(--navy); }
 .topic-tag.topic-energy { background: var(--green); }

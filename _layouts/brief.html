@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="brief">
   <header class="brief-header">
-    <p class="brief-topic">{{ page.topic }}</p>
+    <span class="topic-tag topic-{{ page.topic | downcase }}">{{ page.topic }}</span>
     <h1>{{ page.title }}</h1>
     <p class="brief-date">{{ page.date | date: "%B %-d, %Y" }}</p>
   </header>
@@ -13,6 +13,6 @@ layout: default
   </div>
 
   <footer class="brief-footer">
-<a href="{{ '/briefs/' | relative_url }}">&larr; Back to all briefs</a>
+    <a href="{{ '/briefs/' | relative_url }}">&larr; Back to all briefs</a>
   </footer>
 </article>

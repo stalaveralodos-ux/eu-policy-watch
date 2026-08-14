@@ -1,3 +1,4 @@
+[actors_index.md](https://github.com/user-attachments/files/31082147/actors_index.md)
 ---
 layout: default
 title: Actors
@@ -8,13 +9,17 @@ permalink: /actors/
 Mapa de instituciones y actores clave por expediente.
 
 ### Comisión
-- [DG JUST]({{ '/actors/commission/dg-just/' | relative_url }})
+- [DG JUST]({{ '/actors/commission/dg-just/' | relative_url }}) — CSDDD
+- [DG FISMA]({{ '/actors/commission/dg-fisma/' | relative_url }}) — CSRD, Taxonomía, ESRS, SFDR
+- [DG ENV]({{ '/actors/commission/dg-env/' | relative_url }}) — PPWR
 
 ### Parlamento
-- [Jörgen Warborn (PPE, Suecia)]({{ '/actors/parliament/jorgen-warborn/' | relative_url }})
+- [Jörgen Warborn (PPE, Suecia)]({{ '/actors/parliament/jorgen-warborn/' | relative_url }}) — CSDDD, CSRD
+- [Lara Wolters (S&D, Países Bajos)]({{ '/actors/parliament/lara-wolters/' | relative_url }}) — CSDDD, SFDR
+- [Gerben-Jan Gerbrandy (Renew, Países Bajos)]({{ '/actors/parliament/gerben-jan-gerbrandy/' | relative_url }}) — SFDR
 
 ### Consejo
-Pendiente de desarrollo.
+Pendiente de desarrollo verificado (presidencias rotatorias por expediente).
 
 ### Stakeholders externos
 Pendiente de desarrollo.

@@ -5,8 +5,46 @@ layout: default
   <header class="brief-header">
     <span class="topic-tag topic-{{ page.topic | downcase }}">{{ page.topic }}</span>
     <h1>{{ page.title }}</h1>
-    <p class="brief-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <p class="brief-date">
+      {{ page.date | date: "%B %-d, %Y" }}
+      {% assign words = page.tldr | append: page.where_things_stand | append: page.what_is_at_stake | append: page.why_it_matters | append: page.what_to_watch | number_of_words %}
+      {% assign read_time = words | divided_by: 200 | plus: 1 %}
+      · {{ read_time }} min read
+    </p>
   </header>
+
+  {% if page.tldr %}
+  <div class="tldr-box">
+    <span class="tldr-label">In short</span>
+    <p>{{ page.tldr }}</p>
+  </div>
+  {% endif %}
+
+  <nav class="jump-nav">
+    <a href="#where-things-stand">Where things stand</a>
+    <a href="#what-is-at-stake">What is at stake</a>
+    <a href="#why-it-matters">Why it matters</a>
+    <a href="#what-to-watch">What to watch</a>
+  </nav>
+
+  <div class="accordion">
+    <details class="accordion-item" id="where-things-stand" open>
+      <summary><span class="accordion-num">1</span>Where things stand</summary>
+      <div class="accordion-body">{{ page.where_things_stand | markdownify }}</div>
+    </details>
+    <details class="accordion-item" id="what-is-at-stake">
+      <summary><span class="accordion-num">2</span>What is at stake</summary>
+      <div class="accordion-body">{{ page.what_is_at_stake | markdownify }}</div>
+    </details>
+    <details class="accordion-item" id="why-it-matters">
+      <summary><span class="accordion-num">3</span>Why it matters</summary>
+      <div class="accordion-body">{{ page.why_it_matters | markdownify }}</div>
+    </details>
+    <details class="accordion-item" id="what-to-watch">
+      <summary><span class="accordion-num">4</span>What to watch</summary>
+      <div class="accordion-body">{{ page.what_to_watch | markdownify }}</div>
+    </details>
+  </div>
 
   <div class="brief-content">
     {{ content }}

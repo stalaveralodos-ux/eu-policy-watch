@@ -16,5 +16,5 @@ This page tracks the files worth watching, one brief at a time: where each stand
 
 {% assign sorted_briefs = site.briefs | sort: 'date' | reverse %}
 {% for brief in sorted_briefs %}
-- **[{{ brief.title }}]({{ brief.url }})** — {{ brief.date | date: "%B %Y" }}
+- **[{{ brief.title }}]({{ brief.url | relative_url }})** — {{ brief.date | date: "%B %Y" }}
 {% endfor %}

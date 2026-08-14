@@ -398,3 +398,78 @@ html { scroll-behavior: smooth; }
   from { opacity: 0; transform: translateY(-4px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* --- Directive swatch cards (moodboard-inspired) --- */
+.directive-swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.directive-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 190px;
+  border-radius: 22px;
+  padding: 1.5rem 1.3rem;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 1px 3px rgba(22, 34, 63, 0.08);
+}
+.directive-swatch:hover {
+  transform: translateY(-4px);
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(22, 34, 63, 0.18);
+}
+
+.directive-swatch .swatch-mark {
+  font-size: 1.3rem;
+  opacity: 0.75;
+  line-height: 1;
+}
+
+.directive-swatch .swatch-short {
+  font-family: var(--font-impact);
+  font-weight: 400;
+  font-size: 1.9rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.05;
+  margin-top: 0.8rem;
+}
+
+.directive-swatch .swatch-full {
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-top: 0.3rem;
+  line-height: 1.35;
+}
+
+.directive-swatch .swatch-status {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+  margin-top: 0.9rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.swatch-csddd    { background: #542916; color: #f7f4ec; }
+.swatch-csrd     { background: #a13a1e; color: #f7f4ec; }
+.swatch-taxonomy { background: #f1c166; color: #3c2a1e; }
+.swatch-esrs     { background: #b79858; color: #2c2115; }
+.swatch-sfdr     { background: #88b8ce; color: #16223f; }
+.swatch-ppwr     { background: #16223f; color: #f7f4ec; }
+
+.swatch-csddd .swatch-status,
+.swatch-csrd .swatch-status,
+.swatch-ppwr .swatch-status { border-top-color: rgba(255,255,255,0.28); }
+.swatch-taxonomy .swatch-status,
+.swatch-esrs .swatch-status { border-top-color: rgba(22,34,63,0.2); }
+.swatch-sfdr .swatch-status { border-top-color: rgba(22,34,63,0.2); }

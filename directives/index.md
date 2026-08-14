@@ -1,3 +1,4 @@
+[directives_index.md](https://github.com/user-attachments/files/31081799/directives_index.md)
 ---
 layout: default
 title: Directives
@@ -14,18 +15,22 @@ Un mini-ecosistema por cada expediente: estado, cronología, actores, análisis 
   </div>
   <div class="info-card">
     <div class="info-label">CSRD</div>
-    <div class="info-value">Corporate Sustainability Reporting Directive — pendiente de desarrollo</div>
+    <div class="info-value"><a href="{{ '/directives/csrd/' | relative_url }}">Corporate Sustainability Reporting Directive &rarr;</a></div>
   </div>
   <div class="info-card">
     <div class="info-label">EU Taxonomy</div>
-    <div class="info-value">Reglamento de taxonomía verde — pendiente de desarrollo</div>
+    <div class="info-value"><a href="{{ '/directives/taxonomy/' | relative_url }}">Reglamento de taxonomía verde &rarr;</a></div>
   </div>
   <div class="info-card">
     <div class="info-label">ESRS</div>
-    <div class="info-value">European Sustainability Reporting Standards — pendiente de desarrollo</div>
+    <div class="info-value"><a href="{{ '/directives/esrs/' | relative_url }}">European Sustainability Reporting Standards &rarr;</a></div>
   </div>
   <div class="info-card">
     <div class="info-label">SFDR</div>
-    <div class="info-value">Sustainable Finance Disclosure Regulation — pendiente de desarrollo</div>
+    <div class="info-value"><a href="{{ '/directives/sfdr/' | relative_url }}">Sustainable Finance Disclosure Regulation &rarr;</a></div>
+  </div>
+  <div class="info-card">
+    <div class="info-label">PPWR</div>
+    <div class="info-value"><a href="{{ '/directives/ppwr/' | relative_url }}">Packaging and Packaging Waste Regulation &rarr;</a></div>
   </div>
 </div>

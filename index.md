@@ -1,13 +1,14 @@
 ---
 layout: actor
-title: "DG JUST — Dirección General de Justicia y Consumidores"
-institution: Comisión Europea
-role: "Dirección responsable de la CSDDD desde la propuesta original de 2022 hasta la fase de transposición actual."
-permalink: /actors/commission/dg-just/
+title: "Jörgen Warborn"
+institution: Parlamento Europeo
+role: "Ponente (PPE, Suecia) del paquete Omnibus I en la Comisión de Asuntos Jurídicos (JURI)"
+position: "Favorable a la simplificación y reducción de alcance de la CSDDD y la CSRD"
+permalink: /actors/parliament/jorgen-warborn/
 ---
 
-DG JUST ha liderado el expediente CSDDD desde su origen. Durante la revisión Omnibus (2025-2026), DG FISMA y DG GROW han ganado peso en el proceso, reflejando el giro del expediente hacia argumentos de competitividad.
+Nombrado ponente por JURI para el paquete Omnibus I de simplificación de la CSRD y la CSDDD. Sustituyó en este rol a Lara Wolters (S&D, Países Bajos), ponente de la CSDDD original, lo que refleja el desplazamiento del centro de gravedad político del expediente hacia el PPE en el mandato actual.
 
 **Expedientes relacionados:** [CSDDD](/directives/csddd/)
 
-[Verificar y ampliar: composición actual del equipo técnico, declaraciones públicas recientes del Comisario responsable.]
+[Verificar y ampliar: declaraciones públicas, posición de voto detallada, otros expedientes bajo su responsabilidad.]

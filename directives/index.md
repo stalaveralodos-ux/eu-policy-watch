@@ -63,4 +63,40 @@ Un mini-ecosistema por cada expediente: estado, cronología, actores, análisis 
     <div class="swatch-status">Aplicación general iniciada</div>
   </a>
 
+  <a class="directive-swatch swatch-dna" href="{{ '/directives/digital-networks-act/' | relative_url }}">
+    <span class="swatch-mark">&#10022;</span>
+    <div>
+      <div class="swatch-short">DNA</div>
+      <div class="swatch-full">Digital Networks Act</div>
+    </div>
+    <div class="swatch-status">Primera lectura — Parlamento y Consejo</div>
+  </a>
+
+  <a class="directive-swatch swatch-digital-omnibus" href="{{ '/directives/digital-omnibus/' | relative_url }}">
+    <span class="swatch-mark">&#10022;</span>
+    <div>
+      <div class="swatch-short">Digital Omnibus</div>
+      <div class="swatch-full">AI Omnibus (en vigor) + Data Omnibus (en negociación)</div>
+    </div>
+    <div class="swatch-status">Expediente dividido en dos vías</div>
+  </a>
+
+  <a class="directive-swatch swatch-energy-omnibus" href="{{ '/directives/energy-omnibus/' | relative_url }}">
+    <span class="swatch-mark">&#10022;</span>
+    <div>
+      <div class="swatch-short">Energy Omnibus</div>
+      <div class="swatch-full">Simplificación del etiquetado energético y de neumáticos</div>
+    </div>
+    <div class="swatch-status">Primera lectura — recién presentado</div>
+  </a>
+
+  <a class="directive-swatch swatch-return-regulation" href="{{ '/directives/return-regulation/' | relative_url }}">
+    <span class="swatch-mark">&#10022;</span>
+    <div>
+      <div class="swatch-short">Return Reg.</div>
+      <div class="swatch-full">Common European System for Returns</div>
+    </div>
+    <div class="swatch-status">Acuerdo político — adopción formal pendiente</div>
+  </a>
+
 </div>

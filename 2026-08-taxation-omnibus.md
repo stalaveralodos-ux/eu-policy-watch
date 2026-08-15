@@ -1,0 +1,15 @@
+---
+layout: brief
+title: "The Taxation Omnibus: real simplification, but one veto away from stalling"
+date: 2026-08-15
+topic: Fiscal
+tldr: "The Commission's Taxation Omnibus would abolish withholding tax on intra-EU dividends, interest and royalties — but as a Council Directive requiring unanimity, it faces a structurally harder path than any other 2026 omnibus file."
+where_things_stand: >
+  On 24 June 2026, the Commission published the Taxation Omnibus alongside a recast of the Directive on Administrative Cooperation, presented the same day as the Energy Omnibus as part of its wider 2026 simplification push. The proposal amends six core direct-tax directives, building on conclusions the ECOFIN Council adopted in March 2025 calling for a tax "decluttering and simplification" agenda. As of mid-August 2026, the file is at an early stage: the European Parliament has not yet delivered its (non-binding) opinion, and Council negotiations, which require unanimity, have not produced a general approach.
+what_is_at_stake: >
+  The centrepiece is the abolition of withholding taxes on cross-border dividend, interest and royalty payments between EU companies, paired with a mandatory 30% EBITDA interest-limitation threshold across all Member States — removing the discretion some currently have to set a stricter cap. The Merger Directive's scope would expand to cover simplified mergers and divisions by separation and tax-neutral cross-border conversions. The Commission frames this as pure simplification worth an estimated 7.9 billion euros a year; critics of past EU tax-harmonisation attempts will note that easing withholding-tax and minimum-holding-period rules also has a direct anti-avoidance dimension, not merely an administrative one.
+why_it_matters: >
+  For multinational groups with intra-EU structures, the changes would meaningfully reduce friction on cross-border reorganisations and payments — several major tax advisory firms published client briefings within days of publication, a sign of how closely this is already being watched. For Member States whose competitive position rests partly on today's variation in withholding-tax and holding-period rules, the proposal is a more searching question than pure simplification. For anyone tracking how EU law actually gets made, this file is a useful contrast with the other 2026 omnibus dossiers: Parliament here has only a consultative role, and the Council must agree unanimously — the same procedural setup that has stalled EU direct-tax harmonisation attempts, such as the Common Consolidated Corporate Tax Base, for years at a time.
+what_to_watch: >
+  Because a single Member State can block the file outright, the real signal to watch is not Parliament's opinion but which capitals move first — publicly or in Council working papers — to support or resist the mandatory 30% EBITDA threshold and the withholding-tax changes. Given the proposal's own timeline (application from 1 January 2029 at the earliest, even in the best case), this is a multi-year file: expect slow, incremental Council movement rather than the fast trilogue pace seen on the co-decision omnibus files.
+---

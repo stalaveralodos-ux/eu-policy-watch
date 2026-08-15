@@ -180,6 +180,9 @@ a:hover { text-decoration: underline; }
 .tag-sustainability { background: var(--green); }
 .tag-alert { background: var(--red); }
 .tag-neutral { background: var(--gray); color: var(--navy); }
+.tag-digital { background: var(--navy); }
+.tag-energy { background: var(--green); }
+.tag-migration { background: var(--red); }
 
 /* --- Progress bar --- */
 .progress-track { display: flex; gap: 4px; margin: 0.8rem 0 0.3rem; }
@@ -296,6 +299,7 @@ th {
 }
 .topic-tag.topic-digital { background: var(--navy); }
 .topic-tag.topic-energy { background: var(--green); }
+.topic-tag.topic-migration { background: var(--red); }
 
 /* --- Brief: dynamic accordion identity --- */
 html { scroll-behavior: smooth; }
@@ -466,6 +470,10 @@ html { scroll-behavior: smooth; }
 .swatch-esrs     { background: #b79858; color: #2c2115; }
 .swatch-sfdr     { background: #88b8ce; color: #16223f; }
 .swatch-ppwr     { background: #16223f; color: #f7f4ec; }
+.swatch-dna              { background: #2b4570; color: #f7f4ec; }
+.swatch-digital-omnibus  { background: #3d5a80; color: #f7f4ec; }
+.swatch-energy-omnibus   { background: #c98a2b; color: #2c2115; }
+.swatch-return-regulation { background: #7a2e2e; color: #f7f4ec; }
 
 .swatch-csddd .swatch-status,
 .swatch-csrd .swatch-status,
@@ -473,3 +481,7 @@ html { scroll-behavior: smooth; }
 .swatch-taxonomy .swatch-status,
 .swatch-esrs .swatch-status { border-top-color: rgba(22,34,63,0.2); }
 .swatch-sfdr .swatch-status { border-top-color: rgba(22,34,63,0.2); }
+.swatch-dna .swatch-status,
+.swatch-digital-omnibus .swatch-status,
+.swatch-return-regulation .swatch-status { border-top-color: rgba(255,255,255,0.28); }
+.swatch-energy-omnibus .swatch-status { border-top-color: rgba(22,34,63,0.2); }

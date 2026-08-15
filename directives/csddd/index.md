@@ -1,83 +1,81 @@
 ---
 layout: directive
-title: "CSDDD — Corporate Sustainability Due Diligence Directive"
-short_name: CSDDD
+title: "CSRD — Corporate Sustainability Reporting Directive"
+short_name: CSRD
 status_tag: sustainability
-status: "In force, as amended by Omnibus I. National transposition phase currently underway."
-phase: "Transposition into national law"
+status: "In force, as amended by Omnibus I. Scope reduced by roughly 80% compared with companies previously covered."
+phase: "National transposition underway"
 latest_document: "Directive (EU) 2026/470, published in the Official Journal of the European Union on 26 February 2026"
-next_deadline: "26 July 2028: deadline for transposition into national law"
-date_updated: 2026-08-14
+next_deadline: "19 March 2027: deadline for national transposition of the CSRD amendments"
+date_updated: 2026-08-15
 timeline:
-  - date: "23 feb 2022"
-    text: "The Commission has published the original proposal for a directive on corporate due diligence."
+  - date: "26 feb 2025"
+    text: "The Commission publishes the original Omnibus I proposal, amending the CSRD, the CSDDD and the Taxonomy Regulation."
     done: true
-  - date: "1 jun 2023"
-    text: "Parliament adopts its initial negotiating position."
+  - date: "abr 2025"
+    text: "The 'Stop-the-Clock' Directive postpones certain CSRD application dates while the Omnibus negotiation proceeds."
     done: true
-  - date: "14 dec 2023"
-    text: "Provisional agreement reached in the trilogue between Parliament and the Council on the original text."
+  - date: "31 jul 2025"
+    text: "EFRAG publishes the revised exposure drafts of the simplified ESRS, at the Commission's request."
     done: true
-  - date: "24 abr / 24 may 2024"
-    text: "Parliament and the Council formally adopt the original CSDDD."
+  - date: "9 dic 2025"
+    text: "Provisional trilogue agreement between Parliament and the Council on the Omnibus text."
     done: true
-  - date: "25 jul 2024"
-    text: "Directive 2024/1760 enters into force."
-    done: true
-  - date: "dic 2025"
-    text: "Omnibus Package I: agreement reached in the trilogue on a substantial reduction in scope."
+  - date: "16 dic 2025"
+    text: "Parliament adopts the Omnibus agreement in plenary."
     done: true
   - date: "24 feb 2026"
-    text: "The Council gives its final approval to the text as amended by Omnibus I."
+    text: "The Council formally adopts the directive."
     done: true
   - date: "26 feb 2026"
-    text: "Publication of Directive (EU) 2026/470 in the Official Journal of the European Union. It enters into force on 18 March."
+    text: "Publication as Directive (EU) 2026/470. It enters into force on 18 March."
     done: true
-  - date: "26 jul 2028"
-    text: "Deadline for Member States to transpose the measures in Omnibus I."
+  - date: "18 sep 2026"
+    text: "Deadline for the Commission to adopt the delegated act revising the ESRS."
     current: true
-  - date: "26 jul 2029"
-    text: "Date of general application for businesses within the revised scope."
-  - date: "1 ene 2030"
-    text: "Application of the reporting obligations set out in Article 16 for financial years commencing on or after this date."
+  - date: "1 ene 2027"
+    text: "Date from which the new thresholds apply for financial years, with first reports due in 2028."
+  - date: "19 mar 2027"
+    text: "National transposition deadline for the CSRD amendments (12 months after entry into force)."
 ---
 
-## Overview político-institucional
+## Political-institutional overview
 
-The original CSDDD arose from a proposal by the Commission in February 2022 and completed its legislative process in 2024 with a relatively broad scope of application (companies with more than 1,000 employees and a global turnover of 450 million euros). That text is no longer in force: the Omnibus I simplification package, formally adopted in February 2026, has reduced the scope of the legislation by around 70 per cent, removed the obligation for harmonised implementation of due diligence, and amended the civil liability regime to provide for a more harmonised approach across Member States. The threshold for application now applies to companies with more than 5,000 employees and a turnover of 1.5 billion euros.
+The original CSRD substantially expanded both the number of companies required to report sustainability information and the depth of that reporting, bringing it closer to the financial-reporting regime. Omnibus I has reversed much of that ambition: the applicable threshold rises from 250 employees and €50 million in turnover to more than 1,000 employees and €450 million in net turnover — a change that, according to legal-sector estimates, removes around 80% of the companies previously within scope. Non-EU parent groups are brought into scope where an EU subsidiary or branch generates more than €200 million in net turnover.
 
-Reading the 2024 text as if it were still in force is, at this stage, the most common and most costly mistake made when analysing this case.
+The so-called "Wave 2" and "Wave 3" companies — those already preparing to report — fall outside the scope for the 2025 and 2026 financial years unless they meet the new thresholds, subject to national transposition. Obligations for companies that remain within scope apply from financial years beginning on or after 1 January 2027, with first reports due in 2028.
 
 ## Map of Actors
 
-**European Commission.** DG JUST has led the dossier from the outset; DG FISMA and DG GROW have played an increasingly significant role in the Omnibus phase, in line with the shift towards competitiveness that has characterised the review.
+**European Commission.** DG FISMA leads this dossier within the financial-services and sustainability portfolio; EFRAG (European Financial Reporting Advisory Group) acts as the technical advisory body tasked with drafting the simplified standards. The Commission must adopt the delegated act revising the ESRS by 18 September 2026.
 
-**European Parliament.** Lara Wolters (S&D, Netherlands) was the rapporteur for the original CSDDD in the Committee on Legal Affairs (JURI). For the Omnibus I package, JURI appointed Jörgen Warborn (EPP, Sweden) as rapporteur – a change of rapporteur between the original text and its revised version, reflecting the shift in the political centre of gravity towards the EPP during this parliamentary term.
+**European Parliament.** The same Omnibus I package that amended the CSDDD also amended the CSRD, with Jörgen Warborn (EPP, Sweden) as JURI rapporteur for both dossiers.
 
-**Note.** The Polish Presidency of the Council (first half of 2025) agreed on the Council’s negotiating mandate for the Omnibus in June 2025, before the interinstitutional negotiations were concluded in December of that year.
+**Council.** The Polish Presidency (first half of 2025) negotiated the Council's initial mandate for the Omnibus.
 
-**Stakeholders externos.** [Verificar y ampliar: posiciones actualizadas de BusinessEurope, CSR Europe, la Coalición Europea por la Justicia Corporativa (ECCJ) y otras ONG tras la adopción final de febrero de 2026.]
+**External stakeholders.** [To be verified and expanded: updated positions of business associations and NGOs following the February 2026 entry into force.]
 
 ## Advanced political analysis
 
-The dossier reveals a clear shift in focus: issues that were debated in 2022–2024 in terms of human rights and environmental responsibility are now being discussed in 2026 primarily in terms of competitiveness and the compliance burden. The JURI vote in October 2025 on the Omnibus report was initially rejected by the plenary, which delayed the timetable and shows that consensus within Parliament itself was not automatic, even for the already simplified text.
+The CSRD simplification cannot be read in isolation: it was processed within the same legislative package as the CSDDD, with the same rapporteur and the same timetable, suggesting a deliberate Commission strategy to present both dossiers as a single "reduction of administrative burden" package rather than as two separate substantive debates.
 
-[Verificar y ampliar: bloques ideológicos concretos por grupo político, países que actuaron como "campeones" o "bloqueadores" durante la negociación del Omnibus, y riesgos de posteriores intentos de renegociación antes de la fecha de aplicación de 2029.]
+[To be verified and expanded: positions by political group within Parliament, and by Member State within the Council, specifically on the CSRD.]
 
 ## Impact by sector
 
-The change in the threshold (from 1,000/450M to 5,000 employees/1,500M in turnover) excludes a significant number of medium-sized companies that were preparing to comply with the original text. [To be verified and expanded upon: varying impact on the finance, manufacturing, retail and agriculture sectors, with specific sector-based sources.]
+The narrower scope affects, most visibly, mid-sized companies that had already invested in sustainability-data collection systems to meet the original thresholds. [To be verified and expanded: differentiated sector impact with specific sources.]
 
 ## Transposition by country
 
-Pending verification on a country-by-country basis. See template in `/transposition/csddd/`.
+Pending verified country-by-country development. See template in `/transposition/csrd/`.
 
 ## External links
 
-- European Commission, official CSDDD monitoring page (commission.europa.eu)
-- European Parliament Legislative Train Schedule, Omnibus I entry (europarl.europa.eu)
-- Corporate Justice (ECCJ), press release on final adoption, February 2026
+- European Commission / EFRAG, revised exposure drafts of the ESRS (31 July 2025)
+- Deloitte, Heads Up — "European Sustainability Reporting — Omnibus Legislative Developments" (January 2026)
+- Gibson Dunn, briefing on the Omnibus I enactment (March 2026)
+- Garrigues / DLA Piper / Linklaters, client briefings on Directive (EU) 2026/470 (February–April 2026)
 
 ## Related alerts
 
-See `/alerts/2026/` for the latest updates on this dossier.**
+See `/alerts/2026/` for updates on Omnibus I, which affects the CSRD and the CSDDD jointly.

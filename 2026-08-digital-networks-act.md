@@ -1,0 +1,15 @@
+---
+layout: brief
+title: "The Digital Networks Act: from a delayed file to first reading"
+date: 2026-08-15
+topic: Digital
+tldr: "Reworked after a negative Regulatory Scrutiny Board opinion, the Digital Networks Act was published in January 2026 and is now before Parliament and the Council, trying to balance telecoms consolidation against national regulatory sovereignty."
+where_things_stand: >
+  The Digital Networks Act was originally expected by the end of 2025 but slipped after the Regulatory Scrutiny Board issued a negative opinion on the draft impact assessment in late October. The Commission published the reworked proposal on 21 January 2026 (COM(2026) 16 final), and it is now in first reading: the file sits in Parliament's ITRE committee, where Michał Kobosko (Renew, Poland) was named rapporteur, while the Council's telecoms working group has been examining the text since June 2026. It continues to move alongside the Digital Omnibus, as part of the same simplification push for the telecoms and connectivity sector.
+what_is_at_stake: >
+  The file sits at the intersection of two competing goals: consolidating a fragmented EU telecoms market to help operators compete with US and Asian players, and preserving the consumer protections and national regulatory oversight that member states built up under the current framework. Concretely, the proposal would replace the European Electronic Communications Code with a single Regulation, introduce an EU-wide "single passport" authorisation, and create a new Office for Digital Networks that absorbs the coordination role currently played by the BEREC Office. Telecom operators want fewer, larger rules that ease cross-border investment. Six member states (Austria, France, Germany, Hungary, Italy and Slovenia) flagged concerns before the text was even published, chiefly over ceding national control of spectrum policy to Brussels.
+why_it_matters: >
+  For network operators, the Act could unlock the scale needed to fund next-generation infrastructure, an argument reinforced by the parallel State of the Digital Decade findings on network investment gaps. For smaller telecom players and national regulators, consolidation rules risk favouring the largest operators unless safeguards are built in, and the shift of coordination functions to the new EU office changes the practical role of national regulatory authorities. For citizens, the practical effect is likely to be indirect and slow, felt through investment and pricing rather than any single new right.
+what_to_watch: >
+  With the Council working group now doing article-by-article scrutiny and ITRE yet to schedule its committee vote, the pace of the next few months will show whether the pre-publication pushback from the six member states hardens into a blocking coalition or gets absorbed into a Council mandate. BEREC published its own early assessment of the proposal in March 2026, worth tracking as a signal of how national regulators expect their role to change. Once Parliament and the Council each land a position, expect trilogues to centre on spectrum governance and the powers of the new Office for Digital Networks.
+---

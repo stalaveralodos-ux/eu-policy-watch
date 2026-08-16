@@ -11,3 +11,4 @@ DG FISMA concentra el grueso de los expedientes de finanzas sostenibles en el si
 **Expedientes relacionados:** [CSRD]({{ '/directives/csrd/' | relative_url }}), [EU Taxonomy]({{ '/directives/taxonomy/' | relative_url }}), [ESRS]({{ '/directives/esrs/' | relative_url }}), [SFDR]({{ '/directives/sfdr/' | relative_url }})
 
 [Verificar y ampliar: composición actual del equipo técnico, declaraciones públicas recientes del Comisario responsable de servicios financieros.]
+ading index.md…]()

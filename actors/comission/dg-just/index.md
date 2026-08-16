@@ -8,6 +8,6 @@ permalink: /actors/commission/dg-just/
 
 DG JUST ha liderado el expediente CSDDD desde su origen. Durante la revisión Omnibus (2025-2026), DG FISMA y DG GROW han ganado peso en el proceso, reflejando el giro del expediente hacia argumentos de competitividad.
 
-**Expedientes relacionados:** [CSDDD](/directives/csddd/)
+**Expedientes relacionados:** [CSDDD]({{ '/directives/csddd/' | relative_url }})
 
 [Verificar y ampliar: composición actual del equipo técnico, declaraciones públicas recientes del Comisario responsable.]

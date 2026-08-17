@@ -5,7 +5,7 @@ permalink: /directives/
 ---
 ## Directives
 
-Un mini-ecosistema por cada expediente: estado, cronología, actores, análisis político y transposición nacional.
+A mini-ecosystem for each case: status, timeline, stakeholders, political analysis and national implementation.
 
 <div class="directive-swatch-grid">
 

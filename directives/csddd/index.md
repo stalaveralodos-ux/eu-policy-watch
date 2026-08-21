@@ -3,32 +3,32 @@ layout: directive
 title: "CSDDD — Corporate Sustainability Due Diligence Directive"
 short_name: CSDDD
 status_tag: sustainability
-status: "En vigor, modificada por el Omnibus I. Fase de transposición nacional en curso."
-phase: "Transposición nacional"
-latest_document: "Directiva (UE) 2026/470, publicada en el DOUE el 26 de febrero de 2026"
-next_deadline: "26 de julio de 2028: plazo límite de transposición nacional"
+status: "In force, amended by Omnibus Act I. National transposition phase in progress."
+phase: "National transposition"
+latest_document: "Directive (EU) 2026/470, published in the OJEU on 26 February 2026"
+next_deadline: "26 July 2028: deadline for national transposition"
 date_updated: 2026-08-14
 timeline:
   - date: "23 feb 2022"
-    text: "La Comisión publica la propuesta original de directiva sobre diligencia debida corporativa."
+    text: "The Commission publishes the original proposal for a directive on corporate due diligence."
     done: true
   - date: "1 jun 2023"
-    text: "El Parlamento adopta su posición negociadora inicial."
+    text: "The Parliament adopts its initial negotiating position."
     done: true
   - date: "14 dic 2023"
-    text: "Acuerdo provisional en trílogo entre Parlamento y Consejo sobre el texto original."
+    text: "A provisional agreement is reached in the trilogue between the Parliament and the Council on the original text."
     done: true
   - date: "24 abr / 24 may 2024"
-    text: "Parlamento y Consejo adoptan formalmente la CSDDD original."
+    text: "Parliament and the Council formally adopt the original CSDDD."
     done: true
   - date: "25 jul 2024"
-    text: "La Directiva 2024/1760 entra en vigor."
+    text: "Directive 2024/1760 enters into force."
     done: true
   - date: "dic 2025"
-    text: "Paquete Omnibus I: acuerdo en trílogo sobre una reducción sustancial del alcance."
+    text: "Omnibus I package: agreement reached in the trialogue on a substantial reduction in the scope of application."
     done: true
   - date: "24 feb 2026"
-    text: "El Consejo da la aprobación final al texto modificado por el Omnibus I."
+    text: "The Council gives its final approval to the text amended by Omnibus I."
     done: true
   - date: "26 feb 2026"
     text: "Publicación de la Directiva (UE) 2026/470 en el DOUE. Entra en vigor el 18 de marzo."

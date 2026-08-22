@@ -66,6 +66,27 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.external_law_url or page.literature %}
+  <div class="directive-sidebar">
+    {% if page.external_law_url %}
+    <a class="sidebar-law-link" href="{{ page.external_law_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/icon-law.png' | relative_url }}" alt="" class="sidebar-law-icon">
+      <span>Read the legal text</span>
+    </a>
+    {% endif %}
+    {% if page.literature %}
+    <div class="sidebar-box">
+      <div class="sidebar-box-label">Literature</div>
+      <ul class="sidebar-lit-list">
+        {% for item in page.literature %}
+        <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
   <div class="directive-content">
     {{ content }}
   </div>

@@ -69,10 +69,14 @@ wide_layout: true
 <div class="actor-group actor-group-council">
   <div class="actor-group-heading">Council of the EU</div>
   <div class="actor-grid">
-    <div class="actor-card pending">
+    <a class="actor-card" href="{{ '/actors/council/rotating-presidencies/' | relative_url }}">
+      <span class="actor-avatar">EU</span>
       <span class="actor-card-name">Rotating presidencies</span>
-      <span class="actor-card-role">Pending verified development — presidency-by-dossier tracking, working-group leads and Coreper timing.</span>
-    </div>
+      <span class="actor-card-role">Poland → Denmark → Cyprus → Ireland (current). Presidency-by-dossier record and working-group leads.</span>
+      <span class="actor-card-files">
+        <span class="actor-chip">CSDDD</span><span class="actor-chip">SFDR</span><span class="actor-chip">Digital Omnibus</span><span class="actor-chip">DNA</span>
+      </span>
+    </a>
   </div>
 </div>
 

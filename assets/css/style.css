@@ -13,6 +13,7 @@
   --red: #a83a3a;
   --red-bg: #f8e9e9;
   --max-width: 1100px;
+  --max-width-directive: 1440px;
 
   /* coastal accents, used for section signatures and actor cards */
   --sand: #a68a69;
@@ -134,6 +135,19 @@ a:hover { text-decoration: underline; }
 .site-content {
   padding: 2rem 2rem 4rem;
   min-width: 0;
+}
+
+/* --- Wide dashboard variant for directive pages: no side rails,
+   content spreads across the full page instead of a narrow centre column --- */
+.dashboard-directive {
+  grid-template-columns: 1fr;
+  max-width: var(--max-width-directive);
+}
+.site-content-wide {
+  padding: 2rem 3rem 4rem;
+}
+@media (max-width: 700px) {
+  .site-content-wide { padding: 1.2rem 1.2rem 3rem; }
 }
 
 .site-content h1 {
@@ -958,8 +972,8 @@ html { scroll-behavior: smooth; }
 /* two-column body: main content + persistent right rail */
 .directive-body {
   display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 2rem;
+  grid-template-columns: 1fr 320px;
+  gap: 2.5rem;
   align-items: start;
 }
 @media (max-width: 860px) {

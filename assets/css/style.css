@@ -808,3 +808,56 @@ html { scroll-behavior: smooth; }
   margin-top: 0.3rem;
   opacity: 0.9;
 }
+
+/* --- Directive sidebar: legal text link + literature box --- */
+.directive-sidebar {
+  float: right;
+  width: 220px;
+  margin: 0 0 1rem 1.5rem;
+}
+@media (max-width: 760px) {
+  .directive-sidebar { float: none; width: 100%; margin: 0 0 1.2rem; }
+}
+.sidebar-law-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.7rem 0.8rem;
+  margin-bottom: 0.9rem;
+  text-decoration: none;
+  color: var(--navy);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.sidebar-law-link:hover { border-color: var(--navy); }
+.sidebar-law-icon { width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; }
+.sidebar-box {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.8rem 0.9rem;
+}
+.sidebar-box-label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+.sidebar-lit-list { list-style: none; margin: 0; padding: 0; }
+.sidebar-lit-list li { margin-bottom: 0.6rem; font-size: 0.82rem; line-height: 1.4; }
+.sidebar-lit-list li:last-child { margin-bottom: 0; }
+.sidebar-lit-list a { color: var(--dusk); text-decoration: underline; }
+
+/* --- Parliament position table (work in progress) --- */
+.wip-note {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: -0.4rem 0 0.8rem;
+}

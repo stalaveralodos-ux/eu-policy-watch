@@ -78,11 +78,57 @@ The coalition that carried the final vote — EPP together with far-right groups
 
 [To be verified and expanded: national-level ratification politics and any legal challenges once the Council formally adopts the text and it is published in the Official Journal.]
 
-## Impact by sector
+## Who is affected
 
-This is primarily a public-law and enforcement dossier rather than a business-sector one. **Member State authorities and Frontex** — which currently supports returns at a 64% voluntary rate — are the direct addressees of the new procedures and the mutual-recognition mechanism. **Humanitarian and legal-aid organisations** face materially different operating conditions given the expanded search and entry powers, including into shelters they run. **Third countries** approached as potential hosts for return hubs enter a new category of bilateral negotiation with the EU that did not exist under the 2008 directive.
+This is primarily a public-law and enforcement dossier, not a business-sector one, so the relevant question is not which industries are exposed but which actors carry new obligations, new operating constraints, or a new role at the negotiating table.
 
-[To be verified and expanded: which third countries are in active discussions to host return hubs, beyond the frontrunner member-state group's stated interest.]
+<div class="impact-grid">
+
+  <div class="impact-card exposure-direct">
+    <div class="impact-card-head">
+      <span class="impact-card-name">Member State authorities &amp; Frontex</span>
+      <span class="impact-tag">Direct</span>
+    </div>
+    <p class="impact-card-text">The direct addressees of the new procedures and the mutual-recognition mechanism for European Return Orders. Frontex currently supports returns at a 64% voluntary rate and will need to scale up its role as the enforcement backbone of the new system.</p>
+  </div>
+
+  <div class="impact-card exposure-direct">
+    <div class="impact-card-head">
+      <span class="impact-card-name">Migrants and asylum seekers</span>
+      <span class="impact-tag">Direct</span>
+    </div>
+    <p class="impact-card-text">People subject to a return order face a maximum detention period of up to 30 months, up from 18 months under the 2008 directive, and can be transferred to a return hub outside the EU even when they cannot be returned to their country of origin.</p>
+  </div>
+
+  <div class="impact-card exposure-operational">
+    <div class="impact-card-head">
+      <span class="impact-card-name">Humanitarian &amp; legal-aid organisations</span>
+      <span class="impact-tag">Operational</span>
+    </div>
+    <p class="impact-card-text">Face materially different operating conditions under the expanded search and entry powers, which extend into shelters and facilities they themselves run, subject to judicial or administrative authorisation.</p>
+  </div>
+
+  <div class="impact-card exposure-oversight">
+    <div class="impact-card-head">
+      <span class="impact-card-name">National courts &amp; judiciary</span>
+      <span class="impact-tag">Oversight</span>
+    </div>
+    <p class="impact-card-text">Gain a new gatekeeping role, since the expanded search, entry and detention powers are conditional on judicial or administrative authorisation, and the right of appeal remains one of the most contested points of the file.</p>
+  </div>
+
+  <div class="impact-card exposure-emerging">
+    <div class="impact-card-head">
+      <span class="impact-card-name">Third countries as hub hosts</span>
+      <span class="impact-tag">Emerging</span>
+    </div>
+    <p class="impact-card-text">Enter a bilateral negotiating relationship with the EU that did not exist under the 2008 directive. Rwanda, Libya, Mauritania, Uzbekistan and Ethiopia have been reported as countries under consideration, alongside roughly a dozen other potential partners identified informally. Italy's existing centres in Albania, built outside this Regulation, are widely read as the working precedent. Any agreement can only be concluded with a country judged to respect international human rights standards, including the principle of non-refoulement.</p>
+  </div>
+
+</div>
+
+**Who is pushing hardest.** The Netherlands, Austria, Germany, Greece and Denmark form the frontrunner group of member states actively pursuing the return-hub model, with Germany's Interior Ministry reportedly aiming to close agreements with third countries before the end of 2026.
+
+[To be verified and expanded: confirmed bilateral agreements once they are formally concluded and published, and the position of each candidate host country as talks progress.]
 
 ## Transposition by country
 

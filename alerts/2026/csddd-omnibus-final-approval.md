@@ -1,15 +1,15 @@
 ---
 layout: alert
-title: "El Consejo da la aprobación final a la CSDDD modificada por el Omnibus I"
+title: "Council gives final approval to the CSDDD as amended by Omnibus I"
 date: 2026-02-24
 directive: CSDDD
 permalink: /alerts/2026/csddd-omnibus-final-approval/
 ---
 
-Tras casi cuatro años de negociación, los Estados miembros dieron el 24 de febrero de 2026 la aprobación final a la Corporate Sustainability Due Diligence Directive tal como quedó modificada por el paquete de simplificación Omnibus I. El texto reduce sustancialmente el alcance respecto a la versión de 2024: el umbral de aplicación sube a empresas de más de 5.000 empleados y 1.500 millones de euros de facturación, desaparece el deber de implementación armonizada de la diligencia debida, y el régimen de responsabilidad civil queda modificado hacia una fórmula más armonizada entre Estados miembros.
+After almost four years of negotiation, member states gave final approval on 24 February 2026 to the Corporate Sustainability Due Diligence Directive as amended by the Omnibus I simplification package. The text substantially narrows the scope compared with the 2024 version: the applicable threshold rises to companies with more than 5,000 employees and €1.5 billion in turnover, the duty to implement due diligence in a harmonised way disappears, and the civil-liability regime shifts toward a formula more harmonised between member states.
 
-La Directiva (UE) 2026/470 se publicó en el Diario Oficial de la UE dos días después, el 26 de febrero de 2026, y entró en vigor el 18 de marzo. Los Estados miembros tienen ahora hasta el 26 de julio de 2028 para transponerla.
+Directive (EU) 2026/470 was published in the Official Journal of the EU two days later, on 26 February 2026, and entered into force on 18 March. Member states now have until 26 July 2028 to transpose it.
 
-**Fuente:** Corporate Justice (ECCJ), nota de prensa, 24 de febrero de 2026.
+**Source:** Corporate Justice (ECCJ), press release, 24 February 2026.
 
-Más contexto en la ficha completa de la [CSDDD]({{ '/directives/csddd/' | relative_url }}).
+More context in the full [CSDDD]({{ '/directives/csddd/' | relative_url }}) entry.

@@ -1,29 +1,35 @@
 :root {
-  --cream: #f7f4ec;
-  --panel: #ffffff;
-  --navy: #16223f;
-  --navy-2: #1e3358;
-  --blue: #7b9cc4;
-  --gray: #b7b7bc;
-  --text: #16223f;
-  --muted: #6b6f76;
-  --line: #e2ded2;
-  --green: #3f6b4f;
-  --green-bg: #e7f0ea;
-  --red: #a83a3a;
-  --red-bg: #f8e9e9;
+  /* === Field Notes palette ===
+     Warm cream base, deep forest ink instead of hard navy,
+     terracotta as the primary accent, olive and dusty blue as
+     secondary semantics. Inspired by a warm botanical palette,
+     a calmer club-green identity, and clean display type,
+     recomposed into something of its own for a policy-watch site. */
+  --cream: #f6efe2;
+  --panel: #fffcf6;
+  --navy: #24352a;
+  --navy-2: #33492f;
+  --blue: #7d93a3;
+  --gray: #a89f8f;
+  --text: #2a2620;
+  --muted: #756b5c;
+  --line: #e4d9c4;
+  --green: #5d6737;
+  --green-bg: #eef0e2;
+  --red: #9a4a2e;
+  --red-bg: #f6e9df;
   --max-width: 1100px;
   --max-width-directive: 1440px;
 
   /* coastal accents, used for section signatures and actor cards */
-  --sand: #a68a69;
-  --sand-light: #efeae4;
-  --sky: #aecae8;
-  --sky-deep: #7a90a8;
-  --dusk: #48596b;
+  --sand: #c07a3e;
+  --sand-light: #f1e4cf;
+  --sky: #b7c6cd;
+  --sky-deep: #4f6a72;
+  --dusk: #4a3f2f;
 
   --font-sans: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-serif: "Lora", Georgia, "Times New Roman", serif;
+  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
   --font-impact: "Anton", "Arial Narrow", sans-serif;
 }
 
@@ -33,10 +39,10 @@ body {
   font-family: var(--font-sans);
   color: var(--text);
   background: var(--cream);
-  line-height: 1.65;
+  line-height: 1.7;
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 a { color: var(--navy-2); text-decoration: none; }
@@ -204,7 +210,7 @@ a:hover { text-decoration: underline; }
 .tag-digital { background: var(--navy); }
 .tag-energy { background: var(--green); }
 .tag-migration { background: var(--red); }
-.tag-fiscal { background: #8a6d3b; }
+.tag-fiscal { background: var(--sand); color: var(--text); }
 
 /* --- Progress bar --- */
 .progress-track { display: flex; gap: 4px; margin: 0.8rem 0 0.3rem; }
@@ -488,29 +494,29 @@ html { scroll-behavior: smooth; }
   border-top: 1px solid rgba(255, 255, 255, 0.28);
 }
 
-.swatch-csddd    { background: #542916; color: #f7f4ec; }
-.swatch-csrd     { background: #a13a1e; color: #f7f4ec; }
-.swatch-taxonomy { background: #f1c166; color: #3c2a1e; }
-.swatch-esrs     { background: #b79858; color: #2c2115; }
-.swatch-sfdr     { background: #88b8ce; color: #16223f; }
-.swatch-ppwr     { background: #16223f; color: #f7f4ec; }
-.swatch-dna              { background: #2b4570; color: #f7f4ec; }
-.swatch-digital-omnibus  { background: #3d5a80; color: #f7f4ec; }
-.swatch-energy-omnibus   { background: #c98a2b; color: #2c2115; }
-.swatch-return-regulation { background: #7a2e2e; color: #f7f4ec; }
-.swatch-eudr              { background: #2f6f4f; color: #f7f4ec; }
-.swatch-taxation-omnibus  { background: #8a6d3b; color: #f7f4ec; }
+.swatch-csddd    { background: #5b3a1f; color: #f6efe2; }
+.swatch-csrd     { background: #9a4a2e; color: #f6efe2; }
+.swatch-taxonomy { background: #d9a84a; color: #2a2620; }
+.swatch-esrs     { background: #b08a4e; color: #2a2620; }
+.swatch-sfdr     { background: #7e9a94; color: #24352a; }
+.swatch-ppwr     { background: #24352a; color: #f6efe2; }
+.swatch-dna              { background: #33492f; color: #f6efe2; }
+.swatch-digital-omnibus  { background: #5d6737; color: #f6efe2; }
+.swatch-energy-omnibus   { background: #c07a3e; color: #2a2620; }
+.swatch-return-regulation { background: #7a2e2e; color: #f6efe2; }
+.swatch-eudr              { background: #4a6b4f; color: #f6efe2; }
+.swatch-taxation-omnibus  { background: #6b5636; color: #f6efe2; }
 
 .swatch-csddd .swatch-status,
 .swatch-csrd .swatch-status,
 .swatch-ppwr .swatch-status { border-top-color: rgba(255,255,255,0.28); }
 .swatch-taxonomy .swatch-status,
-.swatch-esrs .swatch-status { border-top-color: rgba(22,34,63,0.2); }
-.swatch-sfdr .swatch-status { border-top-color: rgba(22,34,63,0.2); }
+.swatch-esrs .swatch-status { border-top-color: rgba(36,53,42,0.2); }
+.swatch-sfdr .swatch-status { border-top-color: rgba(36,53,42,0.2); }
 .swatch-dna .swatch-status,
 .swatch-digital-omnibus .swatch-status,
 .swatch-return-regulation .swatch-status { border-top-color: rgba(255,255,255,0.28); }
-.swatch-energy-omnibus .swatch-status { border-top-color: rgba(22,34,63,0.2); }
+.swatch-energy-omnibus .swatch-status { border-top-color: rgba(36,53,42,0.2); }
 .swatch-eudr .swatch-status,
 .swatch-taxation-omnibus .swatch-status { border-top-color: rgba(255,255,255,0.28); }
 
@@ -551,7 +557,6 @@ html { scroll-behavior: smooth; }
   align-items: center;
   gap: 0.55rem;
   font-family: var(--font-serif);
-  font-style: italic;
   font-weight: 600;
   font-size: 1.28rem;
   letter-spacing: 0;
@@ -581,7 +586,7 @@ html { scroll-behavior: smooth; }
 .dsection ul, .dsection ol { padding-left: 1.3rem; }
 
 /* per-section accent + kicker copy */
-.dsection-overview      { --accent: var(--navy);     background: linear-gradient(180deg, rgba(22,34,63,0.04), transparent 60%), var(--panel); }
+.dsection-overview      { --accent: var(--navy);     background: linear-gradient(180deg, rgba(36,53,42,0.04), transparent 60%), var(--panel); }
 .dsection-overview::before      { content: "The essentials"; }
 
 .dsection-actors        { --accent: var(--sky-deep);  background: linear-gradient(180deg, rgba(122,144,168,0.09), transparent 60%), var(--panel); }
@@ -662,7 +667,7 @@ html { scroll-behavior: smooth; }
 .actor-card:hover {
   text-decoration: none;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(22,34,63,0.08);
+  box-shadow: 0 8px 20px rgba(36,53,42,0.08);
 }
 
 .actor-avatar {
@@ -949,11 +954,11 @@ html { scroll-behavior: smooth; }
 .directive-hero h1 {
   color: var(--cream);
   font-family: var(--font-serif);
-  font-style: italic;
+  font-weight: 600;
   margin: 0.2rem 0 0.5rem;
 }
 .directive-hero-updated {
-  color: rgba(247,244,236,0.65);
+  color: rgba(246,239,226,0.65);
   font-size: 0.82rem;
   margin: 0;
 }
@@ -1022,7 +1027,7 @@ html { scroll-behavior: smooth; }
 /* --- Hero: split into text + momentum gauge --- */
 .directive-hero { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
 .hero-main { flex: 1; min-width: 220px; }
-.hero-line { color: rgba(247,244,236,0.85); font-size: 0.95rem; max-width: 46ch; margin: 0.3rem 0 0.6rem; }
+.hero-line { color: rgba(246,239,226,0.85); font-size: 0.95rem; max-width: 46ch; margin: 0.3rem 0 0.6rem; }
 .hero-gauge { text-align: center; flex-shrink: 0; }
 .gauge-wrap { position: relative; width: 130px; }
 .gauge-svg { width: 130px; height: 72px; display: block; }
@@ -1030,12 +1035,12 @@ html { scroll-behavior: smooth; }
   position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%);
   font-family: var(--font-serif); font-weight: 700; font-size: 1.6rem; color: var(--cream);
 }
-.gauge-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(247,244,236,0.7); margin: 0.2rem 0 0.5rem; }
-.hero-gauge-hot     { --gauge-color: #d9603b; }
-.hero-gauge-warming { --gauge-color: #d99a3c; }
-.hero-gauge-stable  { --gauge-color: #6fae86; }
-.hero-gauge-cooling { --gauge-color: #7b9cc4; }
-.hero-gauge .weather-badge { background: rgba(247,244,236,0.12); border-color: rgba(247,244,236,0.3); color: var(--cream); }
+.gauge-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(246,239,226,0.7); margin: 0.2rem 0 0.5rem; }
+.hero-gauge-hot     { --gauge-color: #c96b3e; }
+.hero-gauge-warming { --gauge-color: #d9a84a; }
+.hero-gauge-stable  { --gauge-color: #8a9a5b; }
+.hero-gauge-cooling { --gauge-color: #7d93a3; }
+.hero-gauge .weather-badge { background: rgba(246,239,226,0.12); border-color: rgba(246,239,226,0.3); color: var(--cream); }
 
 /* --- Sticky in-page nav --- */
 .directive-subnav {

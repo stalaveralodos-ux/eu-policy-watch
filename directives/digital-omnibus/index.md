@@ -11,12 +11,14 @@ status: "Split into two files. The AI Omnibus is adopted and in force since 27 J
 phase: "AI track: post-adoption implementation. Data track: Council mandate stalled, now with the Irish Presidency for the second half of 2026."
 latest_document: "Regulation amending the AI Act, adopted by the Council on 29 June 2026, published in the Official Journal on 24 July 2026"
 next_deadline: "Data Omnibus: a revived Council negotiating mandate, no confirmed date as of mid-August 2026; final adoption not expected before 2027 at the earliest"
+external_law_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0836"
 date_updated: 2026-08-22
 section_nav:
   - {id: "brief", label: "Brief"}
   - {id: "what-changed", label: "What changed"}
   - {id: "status", label: "Status"}
   - {id: "timeline", label: "Timeline"}
+  - {id: "vote", label: "Vote"}
   - {id: "whats-next", label: "What's next"}
   - {id: "open-questions", label: "Open questions"}
 why_matters: "This file decides two different things on two different clocks. The AI Omnibus, already law, bought companies up to 16 months before the AI Act's toughest obligations bite. The Data Omnibus would rewrite how GDPR consent, cookie banners and breach reporting work for almost every organisation handling personal data in the EU, and it is currently blocked in Council."
@@ -58,6 +60,16 @@ watchlist:
     text: "Parliament's ITRE/LIBE joint report, not expected before autumn 2026"
   - level: yellow
     text: "Whether Articles 88a to 88c on cookie consent resurface in trilogue"
+vote:
+  for: 423
+  against: 57
+  abstain: 174
+  for_pct: 65
+  against_pct: 9
+  abstain_pct: 26
+  coalition_for: "Broad centrist support, though markedly narrower than the 569-vote March mandate"
+  coalition_against: "A small but firm bloc of opposition, alongside abstentions that nearly quadrupled versus March"
+  note: "This is the AI Omnibus vote, 16 June 2026, the track that is now settled law. The Data Omnibus has not yet reached a Parliament plenary vote."
 timeline:
   - date: "16 sep – 14 oct 2025"
     text: "Commission call for evidence on the digital package."

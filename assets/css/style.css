@@ -914,3 +914,89 @@ html { scroll-behavior: smooth; }
 
 .impact-card-text { font-size: 0.86rem; line-height: 1.55; margin: 0; }
 .impact-card-text strong { color: var(--text); }
+
+/* =========================================================
+   Directive page: hero band + two-column body
+   Inspired by the "Tierra Café" moodboard: a dark hero band,
+   a thin decorative pattern divider, and content that breaks
+   out of a single long column into a main column plus a
+   persistent right rail running alongside it.
+   ========================================================= */
+
+.directive-hero {
+  background: var(--navy);
+  color: var(--cream);
+  border-radius: 14px;
+  padding: 1.8rem 2rem 1.6rem;
+  margin-bottom: 0;
+}
+.directive-hero-tags { margin-bottom: 0.7rem; }
+.directive-hero-tags .tag { color: #fff; }
+.directive-hero h1 {
+  color: var(--cream);
+  font-family: var(--font-serif);
+  font-style: italic;
+  margin: 0.2rem 0 0.5rem;
+}
+.directive-hero-updated {
+  color: rgba(247,244,236,0.65);
+  font-size: 0.82rem;
+  margin: 0;
+}
+
+/* decorative divider, a nod to the looped pattern in the moodboard */
+.pattern-divider {
+  height: 22px;
+  margin: 0 0 1.4rem;
+  border-radius: 0 0 8px 8px;
+  background-image: radial-gradient(circle, var(--sand) 1.6px, transparent 1.7px);
+  background-size: 14px 14px;
+  background-position: 0 4px;
+  opacity: 0.55;
+}
+
+/* two-column body: main content + persistent right rail */
+.directive-body {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .directive-body { grid-template-columns: 1fr; }
+}
+
+.directive-main { min-width: 0; }
+
+.directive-aside {
+  position: sticky;
+  top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.aside-block {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+.aside-block .sidebar-law-link { margin-bottom: 0; }
+.aside-block .sidebar-box { border: none; padding: 0; }
+.aside-block + .aside-block { margin-top: 0; }
+
+/* compact timeline used inside the aside rail */
+.timeline-compact { margin: 0.6rem 0 0; max-height: 420px; overflow-y: auto; padding-right: 0.3rem; }
+.timeline-compact .timeline-item { padding: 0.4rem 0; }
+.timeline-compact .timeline-date { min-width: 68px; font-size: 0.72rem; }
+.timeline-compact .timeline-text { font-size: 0.8rem; }
+.timeline-compact .timeline-item.is-current::before { background: var(--red); }
+.timeline-compact .timeline-item.is-current .timeline-date { color: var(--red); font-weight: 600; }
+
+/* new dsection variant for Parliament group positions */
+.dsection-parliament { --accent: var(--blue); background: linear-gradient(180deg, rgba(123,156,196,0.12), transparent 60%), var(--panel); }
+.dsection-parliament::before { content: "Where the groups stand"; }
+.dsection-parliament table { margin-top: 0.2rem; }
+
+/* impact cards read correctly inside a dsection panel too */
+.dsection .impact-grid { margin-top: 0.3rem; }

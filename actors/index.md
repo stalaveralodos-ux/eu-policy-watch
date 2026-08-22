@@ -2,6 +2,7 @@
 layout: default
 title: Actors
 permalink: /actors/
+wide_layout: true
 ---
 ## Actors
 

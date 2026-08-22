@@ -33,8 +33,14 @@ timeline:
   - date: "17 jun 2026"
     text: "Parliament formally approves the agreed text in plenary (418 in favour, 218 against, 30 abstentions)."
     current: true
-  - date: "por confirmar"
+  - date: "to be confirmed"
     text: "Formal adoption by the Council and publication in the Official Journal — pending as of mid-August 2026."
+external_law_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025PC0101"
+literature:
+  - title: "Reframing return: the politics of enforcement in the EU's Common European System for Returns"
+    url: "https://www.tandfonline.com/doi/full/10.1080/1369183X.2026.2633666"
+  - title: "Detention, deterrence and the limits of EU return policy"
+    url: "https://www.tandfonline.com/doi/full/10.1080/1369183X.2025.2601254"
 ---
 
 ## Political-institutional overview
@@ -52,6 +58,19 @@ The final agreed text goes beyond the Commission's original March 2025 proposal 
 **Council.** The Cypriot Presidency concluded the trilogues in June 2026. A frontrunner group of five governments — the Netherlands, Austria, Germany, Greece and Denmark — has pushed the offshore return-hub model furthest.
 
 **External stakeholders.** UN special procedures and UNHCR raised concerns during the proposal phase (a UN experts' letter of 26 January 2026; UNHCR observations, May 2025), and the Council of Europe Commissioner for Human Rights published detailed observations in March 2026, focused on non-refoulement safeguards and the effective right to appeal. [To be verified and expanded: reactions of these same bodies to the final June 2026 text, which goes further than the version they originally commented on.]
+
+## European Parliament — positions by group (work in progress)
+
+<p class="wip-note">This section tracks how each political group has positioned itself on the file. It will be expanded as more group statements and voting explanations become available.</p>
+
+| Group | Position | Notes |
+|---|---|---|
+| EPP | In favour | Backed the counter-report led by Bellamy over the rapporteur's own text; provided the core of the majority in the final plenary vote. |
+| Renew | Mixed | Rapporteur Azmani (Renew) led the file, but the final mandate leaned on the EPP-aligned counter-report rather than his own draft. |
+| S&D | Against | Voted against the final text in plenary, opposing the detention period increase and expanded search powers. |
+| Greens/EFA | Against | Opposed on non-refoulement and civil-society access grounds. |
+| The Left | Against | Opposed the return-hub model and expanded detention. |
+| ECR / Patriots / ESN (far right) | In favour | Voted with the EPP, forming the majority alongside it. |
 
 ## Advanced political analysis
 

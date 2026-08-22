@@ -8,6 +8,23 @@ phase: "National transposition"
 latest_document: "Directive (EU) 2026/470, published in the OJEU on 26 February 2026"
 next_deadline: "26 July 2028: deadline for national transposition"
 date_updated: 2026-08-14
+weather_temp: cooling
+weather_icon: "❄️"
+momentum: 34
+why_matters: "Este expediente determinara como deben identificar y gestionar las grandes empresas los riesgos de derechos humanos y medioambientales en sus cadenas de valor. Tras el recorte del Omnibus I, el debate real ya no es si se aplica sino a cuantas empresas y con que fuerza."
+impact: "Alto, aunque reducido frente al texto de 2024"
+political_sensitivity: "Media, el acuerdo ya esta cerrado pero la transposicion nacional puede reabrir matices"
+implementation_difficulty: "Alta, cada Estado miembro transpone con su propio calendario hasta 2028"
+next_milestone: "26 julio 2028, plazo limite de transposicion nacional"
+next_steps:
+  - "Transposicion en los 27 Estados miembros"
+  - "Primeros reportes bajo el articulo 16 desde 2030"
+  - "Posibles guias de aplicacion de la Comision"
+expected_impact: "Medio-alto para las aprox. 5.000+ empleados y 1.500M de facturacion que quedan dentro del ambito revisado"
+derail_risks:
+  - "Transposiciones nacionales divergentes"
+  - "Presion empresarial para nuevos retrasos"
+  - "Litigios sobre el regimen de responsabilidad civil"
 timeline:
   - date: "23 feb 2022"
     text: "The Commission publishes the original proposal for a directive on corporate due diligence."

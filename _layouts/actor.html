@@ -2,24 +2,24 @@
 layout: default
 ---
 <article class="actor-page">
-  <header>
+  <header class="actor-hero">
     <span class="actor-avatar-lg">{{ page.title | slice: 0, 2 | upcase }}</span>
-    <div>
+    <div class="actor-hero-text">
       <span class="tag tag-neutral">{{ page.institution }}</span>
-      <h1 style="margin: 0.3rem 0 0;">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
     </div>
   </header>
 
   <div class="info-grid">
     {% if page.role %}
     <div class="info-card">
-      <div class="info-label">Rol</div>
+      <div class="info-label">Role</div>
       <div class="info-value">{{ page.role }}</div>
     </div>
     {% endif %}
     {% if page.position %}
     <div class="info-card">
-      <div class="info-label">Posición política</div>
+      <div class="info-label">Political position</div>
       <div class="info-value">{{ page.position }}</div>
     </div>
     {% endif %}

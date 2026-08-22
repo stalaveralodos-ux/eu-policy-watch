@@ -1000,3 +1000,192 @@ html { scroll-behavior: smooth; }
 
 /* impact cards read correctly inside a dsection panel too */
 .dsection .impact-grid { margin-top: 0.3rem; }
+
+/* =========================================================
+   Directive page v2: dashboard modules
+   ========================================================= */
+
+/* --- Hero: split into text + momentum gauge --- */
+.directive-hero { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.hero-main { flex: 1; min-width: 220px; }
+.hero-line { color: rgba(247,244,236,0.85); font-size: 0.95rem; max-width: 46ch; margin: 0.3rem 0 0.6rem; }
+.hero-gauge { text-align: center; flex-shrink: 0; }
+.gauge-wrap { position: relative; width: 130px; }
+.gauge-svg { width: 130px; height: 72px; display: block; }
+.gauge-number {
+  position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%);
+  font-family: var(--font-serif); font-weight: 700; font-size: 1.6rem; color: var(--cream);
+}
+.gauge-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(247,244,236,0.7); margin: 0.2rem 0 0.5rem; }
+.hero-gauge-hot     { --gauge-color: #d9603b; }
+.hero-gauge-warming { --gauge-color: #d99a3c; }
+.hero-gauge-stable  { --gauge-color: #6fae86; }
+.hero-gauge-cooling { --gauge-color: #7b9cc4; }
+.hero-gauge .weather-badge { background: rgba(247,244,236,0.12); border-color: rgba(247,244,236,0.3); color: var(--cream); }
+
+/* --- Sticky in-page nav --- */
+.directive-subnav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  background: var(--cream);
+  border-bottom: 1px solid var(--line);
+  padding: 0.6rem 0.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.78rem;
+}
+.directive-subnav a { color: var(--dusk); text-decoration: none; font-weight: 600; }
+.directive-subnav a:hover { color: var(--navy); text-decoration: underline; }
+
+/* --- 30-second brief --- */
+.brief-band {
+  background: linear-gradient(135deg, var(--navy-2), var(--navy));
+  color: var(--cream);
+  border-radius: 10px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1.4rem;
+}
+.brief-band-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; color: #e3c98a; margin-bottom: 0.4rem; }
+.brief-band p { margin: 0; font-size: 0.95rem; line-height: 1.55; }
+
+/* --- Section kicker (used by several full-width modules) --- */
+.section-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+/* --- What changed: 4-card horizontal grid --- */
+.what-changed { margin-bottom: 1.4rem; }
+.what-changed-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; counter-reset: wc-counter; }
+@media (max-width: 900px) { .what-changed-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .what-changed-grid { grid-template-columns: 1fr; } }
+.wc-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--terracotta, #a13a1e);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+.wc-card { counter-increment: wc-counter; }
+.wc-num { font-family: var(--font-serif); font-weight: 700; font-size: 1.4rem; color: var(--sand); margin-bottom: 0.3rem; }
+.wc-num::before { content: counter(wc-counter, decimal-leading-zero); }
+.wc-card p { margin: 0; font-size: 0.85rem; line-height: 1.45; }
+
+/* --- Horizontal timeline (road to adoption) --- */
+.timeline-full { margin-bottom: 1.6rem; overflow-x: auto; }
+.htimeline { display: flex; align-items: flex-start; gap: 0; min-width: 640px; padding-top: 0.6rem; }
+.htimeline-step { flex: 1; position: relative; padding: 0 0.6rem; text-align: left; }
+.htimeline-step::before {
+  content: ""; position: absolute; top: 6px; left: -50%; width: 100%; height: 2px; background: var(--line); z-index: 0;
+}
+.htimeline-step:first-child::before { display: none; }
+.htimeline-step.done::before { background: var(--blue); }
+.htimeline-dot {
+  width: 13px; height: 13px; border-radius: 50%; background: var(--line);
+  border: 2px solid var(--panel); position: relative; z-index: 1; margin-bottom: 0.5rem;
+}
+.htimeline-step.done .htimeline-dot { background: var(--blue); }
+.htimeline-step.current .htimeline-dot { background: var(--red); width: 16px; height: 16px; margin-top: -1.5px; }
+.htimeline-date { font-size: 0.72rem; color: var(--muted); font-weight: 600; margin-bottom: 0.2rem; }
+.htimeline-text { font-size: 0.8rem; line-height: 1.4; }
+.htimeline-step.current .htimeline-text { color: var(--red); font-weight: 600; }
+
+/* --- Vote visualization --- */
+.vote-module { margin-bottom: 1.6rem; }
+.vote-bars { display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 0.9rem; }
+.vote-row { display: grid; grid-template-columns: 70px 1fr 50px; align-items: center; gap: 0.7rem; }
+.vote-bar-label { font-size: 0.8rem; font-weight: 600; color: var(--muted); }
+.vote-bar-track { background: var(--line); border-radius: 4px; height: 14px; overflow: hidden; }
+.vote-bar-fill { height: 100%; border-radius: 4px 0 0 4px; }
+.vote-for { background: var(--green); }
+.vote-against { background: var(--red); }
+.vote-abstain { background: var(--gray); }
+.vote-bar-num { font-size: 0.85rem; font-weight: 700; text-align: right; }
+.vote-coalitions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.vote-coalition { font-size: 0.82rem; padding: 0.4rem 0.7rem; border-radius: 5px; }
+.vote-coalition-for { background: var(--green-bg); color: var(--green); }
+.vote-coalition-against { background: var(--red-bg); color: var(--red); }
+.vote-note { font-size: 0.82rem; color: var(--muted); font-style: italic; margin-top: 0.6rem; }
+
+/* --- Who wants what: left-right spectrum --- */
+.spectrum-module { margin-bottom: 1.8rem; }
+.spectrum-axis { position: relative; height: 70px; margin: 1.6rem 0.5rem 0.4rem; }
+.spectrum-line { position: absolute; top: 8px; left: 0; right: 0; height: 2px; background: var(--line); }
+.spectrum-dot { position: absolute; top: 0; transform: translateX(-50%); text-align: center; width: 90px; }
+.spectrum-dot-mark { display: block; width: 14px; height: 14px; border-radius: 50%; margin: 0 auto 0.4rem; border: 2px solid var(--panel); }
+.dot-for .spectrum-dot-mark { background: var(--green); }
+.dot-against .spectrum-dot-mark { background: var(--red); }
+.spectrum-dot-label { font-size: 0.72rem; font-weight: 600; color: var(--text); }
+.spectrum-poles { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.3rem; }
+
+/* --- What happens next: horizontal flow --- */
+.next-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin: 0.6rem 0 1rem; }
+.next-flow-step {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+  max-width: 220px;
+}
+.next-flow-current { border-color: var(--red); background: var(--red-bg); }
+.next-flow-num { font-size: 0.68rem; text-transform: uppercase; font-weight: 700; color: var(--red); margin-bottom: 0.2rem; }
+.next-flow-arrow { color: var(--muted); font-size: 1.1rem; }
+
+/* --- Open questions --- */
+.open-questions { margin: 1.4rem 0; }
+.oq-list { padding-left: 1.3rem; }
+.oq-list li { margin-bottom: 0.5rem; font-size: 0.9rem; }
+
+/* --- Connected files + watchlist (aside) --- */
+.connected-list, .watchlist { list-style: none; padding: 0; margin: 0; }
+.connected-list li { margin-bottom: 0.6rem; font-size: 0.82rem; }
+.connected-name { display: block; font-weight: 600; color: var(--navy); }
+.connected-note { display: block; color: var(--muted); font-size: 0.76rem; }
+.watchlist li { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.82rem; margin-bottom: 0.5rem; }
+.watch-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 0.35rem; flex-shrink: 0; }
+.watch-red { background: var(--red); }
+.watch-orange { background: #c98a2b; }
+.watch-yellow { background: #d9c65c; }
+
+/* --- Political read: numbered insight cards inside a dsection --- */
+.read-card { margin-bottom: 1rem; }
+.read-card:last-child { margin-bottom: 0; }
+.read-card-head { display: flex; align-items: baseline; gap: 0.6rem; margin-bottom: 0.3rem; }
+.read-card-num { font-family: var(--font-serif); font-weight: 700; color: var(--sand); font-size: 1.1rem; }
+.read-card-title { font-weight: 700; color: var(--navy); }
+.read-card p { margin: 0; font-size: 0.9rem; }
+
+/* --- Evidence / to-verify note --- */
+.to-verify {
+  background: #fdf6e8;
+  border: 1px dashed #d9a83c;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.82rem;
+  color: #8a6d1a;
+  margin-top: 0.8rem;
+}
+.to-verify::before { content: "\1F7E1 To verify \2014 "; font-weight: 700; }
+
+/* --- Return hub politics: two-column push/partners --- */
+.hub-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 1rem 0; }
+@media (max-width: 600px) { .hub-columns { grid-template-columns: 1fr; } }
+.hub-col-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; color: var(--muted); margin-bottom: 0.5rem; }
+.hub-list { list-style: none; padding: 0; margin: 0; }
+.hub-list li { font-size: 0.9rem; padding: 0.3rem 0; }
+
+/* --- Source stack tiers --- */
+.source-tier { margin-bottom: 0.9rem; }
+.source-tier:last-child { margin-bottom: 0; }
+.source-tier-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; color: var(--sky-deep); margin-bottom: 0.3rem; }
+.source-tier ul { margin: 0; padding-left: 1.2rem; }
+.source-tier li { font-size: 0.88rem; margin-bottom: 0.25rem; }

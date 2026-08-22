@@ -861,3 +861,56 @@ html { scroll-behavior: smooth; }
   font-style: italic;
   margin: -0.4rem 0 0.8rem;
 }
+
+/* --- Impact cards grid (who is affected) --- */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+  margin: 1.2rem 0 1.4rem;
+}
+@media (max-width: 700px) { .impact-grid { grid-template-columns: 1fr; } }
+
+.impact-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gray);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+}
+.impact-card.exposure-direct { border-left-color: var(--red); }
+.impact-card.exposure-operational { border-left-color: #c98a2b; }
+.impact-card.exposure-oversight { border-left-color: var(--blue); }
+.impact-card.exposure-emerging { border-left-color: var(--green); }
+
+.impact-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.impact-card-name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--navy);
+}
+.impact-tag {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  color: #fff;
+}
+.exposure-direct .impact-tag { background: var(--red); }
+.exposure-operational .impact-tag { background: #c98a2b; }
+.exposure-oversight .impact-tag { background: var(--blue); color: var(--navy); }
+.exposure-emerging .impact-tag { background: var(--green); }
+
+.impact-card-text { font-size: 0.86rem; line-height: 1.55; margin: 0; }
+.impact-card-text strong { color: var(--text); }

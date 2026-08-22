@@ -1,13 +1,13 @@
 ---
 layout: actor
-title: "DG JUST — Dirección General de Justicia y Consumidores"
-institution: Comisión Europea
-role: "Dirección responsable de la CSDDD desde la propuesta original de 2022 hasta la fase de transposición actual."
+title: "DG JUST — Directorate-General for Justice and Consumers"
+institution: European Commission
+role: "Leads the CSDDD from the original 2022 proposal through the current transposition phase."
 permalink: /actors/commission/dg-just/
 ---
 
-DG JUST ha liderado el expediente CSDDD desde su origen. Durante la revisión Omnibus (2025-2026), DG FISMA y DG GROW han ganado peso en el proceso, reflejando el giro del expediente hacia argumentos de competitividad.
+DG JUST has led the CSDDD file since its origin. During the Omnibus review (2025-2026), DG FISMA and DG GROW gained weight in the process, reflecting the file's shift toward competitiveness arguments.
 
-**Expedientes relacionados:** [CSDDD]({{ '/directives/csddd/' | relative_url }})
+**Related files:** [CSDDD]({{ '/directives/csddd/' | relative_url }})
 
-[Verificar y ampliar: composición actual del equipo técnico, declaraciones públicas recientes del Comisario responsable.]
+<p class="to-verify">Current technical team composition, recent public statements from the responsible Commissioner.</p>

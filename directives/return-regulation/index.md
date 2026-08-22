@@ -3,11 +3,97 @@ layout: directive
 title: "Return Regulation — Common European System for Returns"
 short_name: RETURN REG.
 status_tag: migration
+hero_line: "The EU is moving from a fragmented national patchwork to a directly applicable common return system, with major implications for detention, return hubs and cross-border enforcement."
+weather_temp: hot
+weather_icon: "🔥"
+momentum: 78
 status: "Political agreement reached between Parliament and the Council on 1 June 2026; Parliament approved the text in plenary on 17 June 2026. Formal Council adoption and Official Journal publication still pending as of mid-August 2026."
 phase: "Post-agreement — awaiting formal Council adoption and OJ publication"
 latest_document: "Text approved by the European Parliament in plenary, 17 June 2026 (418 in favour, 218 against, 30 abstentions)"
 next_deadline: "Formal Council adoption and OJ publication — no confirmed date as of mid-August 2026; most operative provisions apply 12 months after entry into force"
-date_updated: 2026-08-15
+date_updated: 2026-08-22
+section_nav:
+  - {id: "brief", label: "Brief"}
+  - {id: "what-changed", label: "What changed"}
+  - {id: "status", label: "Status"}
+  - {id: "timeline", label: "Timeline"}
+  - {id: "vote", label: "Vote"}
+  - {id: "who-wants-what", label: "Who wants what"}
+  - {id: "whats-next", label: "What's next"}
+  - {id: "open-questions", label: "Open questions"}
+why_matters: "This Regulation replaces the 2008 Return Directive with a single directly applicable system, built around a European Return Order that all member states must recognise. It sets the enforcement rules for anyone ordered to leave the EU, including how long they can be detained and whether they can be sent to a hub outside the Union."
+impact: "High, it is the enforcement backbone of the entire Pact on Migration and Asylum"
+political_sensitivity: "Very high, passed on an unusual EPP plus far-right coalition against the historic centre-left and Green alignment"
+implementation_difficulty: "High, member states must build shared technical systems and negotiate return-hub agreements with third countries from scratch"
+brief: "The EU has reached political agreement on a new common return system. The deal significantly strengthens enforcement, including longer detention and return hubs in third countries. The coalition that passed it in Parliament is itself a political signal. Formal Council adoption and Official Journal publication remain the next legal steps before the system starts applying."
+what_changed:
+  - "European Parliament formally approved the agreed text on 17 June 2026."
+  - "Maximum detention period rises to up to 30 months, from 18 months under the 2008 directive."
+  - "Return hubs in third countries become a formal part of the enforcement toolkit."
+  - "National authorities gain expanded search and entry powers, including into shelters run by humanitarian organisations."
+vote:
+  for: 418
+  against: 218
+  abstain: 30
+  for_pct: 63
+  against_pct: 33
+  abstain_pct: 5
+  coalition_for: "EPP, together with ECR, Patriots and ESN"
+  coalition_against: "S&D, Greens/EFA and The Left"
+  note: "The coalition that carried the vote breaks with the historic centre-left and Green alignment on migration files, a signal read as a durable rather than one-off shift."
+parliament_spectrum:
+  - group: "The Left"
+    x: 6
+    stance: against
+  - group: "Greens/EFA"
+    x: 14
+    stance: against
+  - group: "S&D"
+    x: 24
+    stance: against
+  - group: "Renew"
+    x: 55
+    stance: for
+  - group: "EPP"
+    x: 76
+    stance: for
+  - group: "ECR / Patriots / ESN"
+    x: 92
+    stance: for
+next_milestone: "Formal Council adoption and Official Journal publication, no confirmed date as of mid-August 2026"
+next_steps:
+  - "Entry into force"
+  - "12-month countdown"
+  - "Operational implementation"
+expected_impact: "High for member state authorities and Frontex, direct and immediate for people subject to a return order"
+derail_risks:
+  - "Legal challenges once the text is published"
+  - "Slow return-hub negotiations with third countries"
+  - "National implementation capacity gaps"
+open_questions:
+  - "How will return hubs actually operate day to day, and under whose supervision?"
+  - "What safeguards will national and European courts require in practice?"
+  - "Will member states accept the mutual-recognition mechanism for European Return Orders without friction?"
+  - "Which third countries will actually sign hosting agreements, and on what terms?"
+  - "Will the new enforcement architecture survive early legal challenges once it is published?"
+related_files:
+  - name: "Pact on Migration and Asylum"
+    note: "this Regulation is its enforcement complement"
+  - name: "Schengen Information System"
+    note: "expected channel for European Return Orders"
+  - name: "2008 Return Directive"
+    note: "replaced by this Regulation"
+watchlist:
+  - level: red
+    text: "Formal Council adoption"
+  - level: orange
+    text: "Official Journal publication"
+  - level: orange
+    text: "First return-hub agreements with third countries"
+  - level: yellow
+    text: "National implementation capacity"
+  - level: yellow
+    text: "Early legal challenges"
 timeline:
   - date: "12 dic 2024"
     text: "JHA Council strategic guidelines identify an effective return policy as a pillar of the common asylum and migration system."
@@ -49,7 +135,7 @@ literature:
 
 The Regulation replaces the 2008 Return Directive with a directly applicable Common European System for Returns, built around a standardised European Return Order that other member states must recognise. It is presented as the enforcement complement to the Pact on Migration and Asylum, against a backdrop the Commission and Parliament have repeatedly cited: only around 20–28% of return orders issued in the EU are currently enforced.
 
-The final agreed text goes beyond the Commission's original March 2025 proposal on several contested points. Post-agreement reporting places the maximum detention period at up to 30 months — a significant increase both on the 18-month ceiling under the 2008 Return Directive and on lower figures reported at earlier stages of the negotiation, and a useful marker of how far the Parliament's negotiating position shifted during trilogue. It also formalises "return hubs" in third countries, allows member states to transfer people whom they cannot return to their country of origin, and expands national authorities' search and entry powers — including into homes and shelters run by humanitarian organisations — to locate and prepare removals, subject to judicial or administrative authorisation.
+The final agreed text goes beyond the Commission's original March 2025 proposal on several contested points, most visibly the maximum detention period, which reaches up to 30 months post-agreement against an 18-month ceiling under the 2008 directive. It also formalises "return hubs" in third countries, allows member states to transfer people whom they cannot return to their country of origin, and expands national authorities' search and entry powers, including into homes and shelters run by humanitarian organisations, to locate and prepare removals, subject to judicial or administrative authorisation.
 
 </div>
 
@@ -59,11 +145,13 @@ The final agreed text goes beyond the Commission's original March 2025 proposal 
 
 **European Commission.** DG HOME leads the dossier, framed by President von der Leyen as turning the page on "a twenty-year-old system."
 
-**European Parliament.** The file sits in LIBE, with Malik Azmani (Renew, Netherlands) as lead rapporteur. Notably, the Parliament's final negotiating mandate drew more heavily on a "counter-report" led by François-Xavier Bellamy (EPP, France) than on Azmani's own text — and the final plenary vote passed on an EPP–far-right coalition, with S&D, Greens and the Left in opposition.
+**European Parliament.** The file sits in LIBE, with Malik Azmani (Renew, Netherlands) as lead rapporteur. Notably, the Parliament's final negotiating mandate drew more heavily on a "counter-report" led by François-Xavier Bellamy (EPP, France) than on Azmani's own text, and the final plenary vote passed on an EPP–far-right coalition, with S&D, Greens and the Left in opposition.
 
-**Council.** The Cypriot Presidency concluded the trilogues in June 2026. A frontrunner group of five governments — the Netherlands, Austria, Germany, Greece and Denmark — has pushed the offshore return-hub model furthest.
+**Council.** The Cypriot Presidency concluded the trilogues in June 2026. A frontrunner group of five governments, the Netherlands, Austria, Germany, Greece and Denmark, has pushed the offshore return-hub model furthest.
 
-**External stakeholders.** UN special procedures and UNHCR raised concerns during the proposal phase (a UN experts' letter of 26 January 2026; UNHCR observations, May 2025), and the Council of Europe Commissioner for Human Rights published detailed observations in March 2026, focused on non-refoulement safeguards and the effective right to appeal. [To be verified and expanded: reactions of these same bodies to the final June 2026 text, which goes further than the version they originally commented on.]
+**External stakeholders.** UN special procedures and UNHCR raised concerns during the proposal phase (a UN experts' letter of 26 January 2026; UNHCR observations, May 2025), and the Council of Europe Commissioner for Human Rights published detailed observations in March 2026, focused on non-refoulement safeguards and the effective right to appeal.
+
+<p class="to-verify">Reactions of these same bodies to the final June 2026 text, which goes further than the version they originally commented on.</p>
 
 </div>
 
@@ -88,9 +176,22 @@ The final agreed text goes beyond the Commission's original March 2025 proposal 
 
 ## Advanced political analysis
 
-The coalition that carried the final vote — EPP together with far-right groups, against the historic centre-left/Green alignment — is itself a political signal about where the median European Parliament position has moved on migration enforcement since the 2025 Commission proposal. Rapporteur Azmani's own framing of his role as needing to be "inclusive... from the left to the extreme right" because "the content is important" reflects the same dynamic from inside the negotiating room, and points to a durable rather than one-off realignment on this policy area.
+<div class="read-card">
+<div class="read-card-head"><span class="read-card-num">01</span><span class="read-card-title">Parliament shifted right on enforcement</span></div>
+<p>The coalition that carried the final vote, EPP together with far-right groups, against the historic centre-left and Green alignment, is itself a political signal about where the median European Parliament position has moved on migration enforcement since the 2025 Commission proposal.</p>
+</div>
 
-[To be verified and expanded: national-level ratification politics and any legal challenges once the Council formally adopts the text and it is published in the Official Journal.]
+<div class="read-card">
+<div class="read-card-head"><span class="read-card-num">02</span><span class="read-card-title">The coalition matters more than the rapporteur</span></div>
+<p>Rapporteur Azmani's own framing of his role, needing to be "inclusive, from the left to the extreme right" because "the content is important," reflects the same dynamic from inside the negotiating room: the final mandate leaned on a rival EPP-aligned counter-report rather than his own text.</p>
+</div>
+
+<div class="read-card">
+<div class="read-card-head"><span class="read-card-num">03</span><span class="read-card-title">The next battle moves to implementation</span></div>
+<p>With the political agreement secured, the contest shifts from the negotiating table to which member states can actually build the technical and diplomatic capacity to use the new tools, and whether courts push back once the first cases under the expanded powers reach them.</p>
+</div>
+
+<p class="to-verify">National-level ratification politics and any legal challenges once the Council formally adopts the text and it is published in the Official Journal.</p>
 
 </div>
 
@@ -139,14 +240,39 @@ This is primarily a public-law and enforcement dossier, not a business-sector on
       <span class="impact-card-name">Third countries as hub hosts</span>
       <span class="impact-tag">Emerging</span>
     </div>
-    <p class="impact-card-text">Enter a bilateral negotiating relationship with the EU that did not exist under the 2008 directive. Rwanda, Libya, Mauritania, Uzbekistan and Ethiopia have been reported as countries under consideration, alongside roughly a dozen other potential partners identified informally. Italy's existing centres in Albania, built outside this Regulation, are widely read as the working precedent. Any agreement can only be concluded with a country judged to respect international human rights standards, including the principle of non-refoulement.</p>
+    <p class="impact-card-text">Enter a bilateral negotiating relationship with the EU that did not exist under the 2008 directive. Any agreement can only be concluded with a country judged to respect international human rights standards, including the principle of non-refoulement.</p>
   </div>
 
 </div>
 
-**Who is pushing hardest.** The Netherlands, Austria, Germany, Greece and Denmark form the frontrunner group of member states actively pursuing the return-hub model, with Germany's Interior Ministry reportedly aiming to close agreements with third countries before the end of 2026.
+### Return hub politics
 
-[To be verified and expanded: confirmed bilateral agreements once they are formally concluded and published, and the position of each candidate host country as talks progress.]
+<div class="hub-columns">
+  <div>
+    <div class="hub-col-label">EU push</div>
+    <ul class="hub-list">
+      <li>🇳🇱 Netherlands</li>
+      <li>🇦🇹 Austria</li>
+      <li>🇩🇪 Germany</li>
+      <li>🇬🇷 Greece</li>
+      <li>🇩🇰 Denmark</li>
+    </ul>
+  </div>
+  <div>
+    <div class="hub-col-label">Potential partner countries reported</div>
+    <ul class="hub-list">
+      <li>🇷🇼 Rwanda</li>
+      <li>🇱🇾 Libya</li>
+      <li>🇲🇷 Mauritania</li>
+      <li>🇺🇿 Uzbekistan</li>
+      <li>🇪🇹 Ethiopia</li>
+    </ul>
+  </div>
+</div>
+
+Germany's Interior Ministry has reportedly set a target of closing agreements with third countries before the end of 2026. Italy's existing centres in Albania, built outside this Regulation, are widely read as the working precedent for how a hub might operate.
+
+<p class="to-verify">Confirmed bilateral agreements once they are formally concluded and published, and the position of each candidate host country as talks progress.</p>
 
 </div>
 
@@ -162,10 +288,28 @@ Not applicable in the traditional sense, as the instrument is a directly applica
 
 ## External links
 
-- Council of the EU, press release, "Council and Parliament reach deal on returns of illegally staying third-country nationals" (1 June 2026)
-- European Parliament, legislative report A10-0048/2026
-- ECRE, "European Parliament approval of the Return Regulation" (July 2026)
-- Council of Europe, Commissioner for Human Rights, "Observations on the new EU returns framework" (2 March 2026)
+<div class="source-tier">
+  <div class="source-tier-label">Primary</div>
+  <ul>
+    <li>Council of the EU, press release, "Council and Parliament reach deal on returns of illegally staying third-country nationals" (1 June 2026)</li>
+    <li>European Parliament, legislative report A10-0048/2026</li>
+  </ul>
+</div>
+
+<div class="source-tier">
+  <div class="source-tier-label">Secondary</div>
+  <ul>
+    <li>ECRE, "European Parliament approval of the Return Regulation" (July 2026)</li>
+    <li>Council of Europe, Commissioner for Human Rights, "Observations on the new EU returns framework" (2 March 2026)</li>
+  </ul>
+</div>
+
+<div class="source-tier">
+  <div class="source-tier-label">Academic</div>
+  <ul>
+    <li>See Literature in the right-hand panel</li>
+  </ul>
+</div>
 
 </div>
 

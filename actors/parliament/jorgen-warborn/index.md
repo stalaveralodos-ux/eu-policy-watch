@@ -1,14 +1,14 @@
 ---
 layout: actor
 title: "Jörgen Warborn"
-institution: Parlamento Europeo
-role: "Ponente (PPE, Suecia) del paquete Omnibus I en la Comisión de Asuntos Jurídicos (JURI)"
-position: "Favorable a la simplificación y reducción de alcance de la CSDDD y la CSRD"
+institution: European Parliament
+role: "Rapporteur (EPP, Sweden) for the Omnibus I package in the Legal Affairs Committee (JURI)"
+position: "In favour of simplifying and narrowing the scope of the CSDDD and the CSRD"
 permalink: /actors/parliament/jorgen-warborn/
 ---
 
-Nombrado ponente por JURI para el paquete Omnibus I de simplificación de la CSRD y la CSDDD. Sustituyó en este rol a Lara Wolters (S&D, Países Bajos), ponente de la CSDDD original, lo que refleja el desplazamiento del centro de gravedad político del expediente hacia el PPE en el mandato actual.
+Appointed rapporteur by JURI for the Omnibus I package simplifying the CSRD and the CSDDD. He replaced Lara Wolters (S&D, Netherlands), rapporteur of the original CSDDD, in this role, reflecting the shift of the file's political centre of gravity toward the EPP in the current mandate.
 
-**Expedientes relacionados:** [CSDDD](/directives/csddd/)
+**Related files:** [CSDDD]({{ '/directives/csddd/' | relative_url }}), [CSRD]({{ '/directives/csrd/' | relative_url }})
 
-[Verificar y ampliar: declaraciones públicas, posición de voto detallada, otros expedientes bajo su responsabilidad.]
+<p class="to-verify">Public statements, detailed voting position, other files under his responsibility.</p>

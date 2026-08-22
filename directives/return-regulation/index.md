@@ -43,11 +43,17 @@ literature:
     url: "https://www.tandfonline.com/doi/full/10.1080/1369183X.2025.2601254"
 ---
 
+<div class="dsection dsection-overview" markdown="1">
+
 ## Political-institutional overview
 
 The Regulation replaces the 2008 Return Directive with a directly applicable Common European System for Returns, built around a standardised European Return Order that other member states must recognise. It is presented as the enforcement complement to the Pact on Migration and Asylum, against a backdrop the Commission and Parliament have repeatedly cited: only around 20–28% of return orders issued in the EU are currently enforced.
 
 The final agreed text goes beyond the Commission's original March 2025 proposal on several contested points. Post-agreement reporting places the maximum detention period at up to 30 months — a significant increase both on the 18-month ceiling under the 2008 Return Directive and on lower figures reported at earlier stages of the negotiation, and a useful marker of how far the Parliament's negotiating position shifted during trilogue. It also formalises "return hubs" in third countries, allows member states to transfer people whom they cannot return to their country of origin, and expands national authorities' search and entry powers — including into homes and shelters run by humanitarian organisations — to locate and prepare removals, subject to judicial or administrative authorisation.
+
+</div>
+
+<div class="dsection dsection-actors" markdown="1">
 
 ## Map of Actors
 
@@ -58,6 +64,10 @@ The final agreed text goes beyond the Commission's original March 2025 proposal 
 **Council.** The Cypriot Presidency concluded the trilogues in June 2026. A frontrunner group of five governments — the Netherlands, Austria, Germany, Greece and Denmark — has pushed the offshore return-hub model furthest.
 
 **External stakeholders.** UN special procedures and UNHCR raised concerns during the proposal phase (a UN experts' letter of 26 January 2026; UNHCR observations, May 2025), and the Council of Europe Commissioner for Human Rights published detailed observations in March 2026, focused on non-refoulement safeguards and the effective right to appeal. [To be verified and expanded: reactions of these same bodies to the final June 2026 text, which goes further than the version they originally commented on.]
+
+</div>
+
+<div class="dsection dsection-parliament" markdown="1">
 
 ## European Parliament — positions by group (work in progress)
 
@@ -72,11 +82,19 @@ The final agreed text goes beyond the Commission's original March 2025 proposal 
 | The Left | Against | Opposed the return-hub model and expanded detention. |
 | ECR / Patriots / ESN (far right) | In favour | Voted with the EPP, forming the majority alongside it. |
 
+</div>
+
+<div class="dsection dsection-analysis" markdown="1">
+
 ## Advanced political analysis
 
 The coalition that carried the final vote — EPP together with far-right groups, against the historic centre-left/Green alignment — is itself a political signal about where the median European Parliament position has moved on migration enforcement since the 2025 Commission proposal. Rapporteur Azmani's own framing of his role as needing to be "inclusive... from the left to the extreme right" because "the content is important" reflects the same dynamic from inside the negotiating room, and points to a durable rather than one-off realignment on this policy area.
 
 [To be verified and expanded: national-level ratification politics and any legal challenges once the Council formally adopts the text and it is published in the Official Journal.]
+
+</div>
+
+<div class="dsection dsection-impact" markdown="1">
 
 ## Who is affected
 
@@ -130,9 +148,17 @@ This is primarily a public-law and enforcement dossier, not a business-sector on
 
 [To be verified and expanded: confirmed bilateral agreements once they are formally concluded and published, and the position of each candidate host country as talks progress.]
 
+</div>
+
+<div class="dsection dsection-transposition" markdown="1">
+
 ## Transposition by country
 
 Not applicable in the traditional sense, as the instrument is a directly applicable Regulation. What is relevant to track is implementation capacity: per the Parliament's report text, the Commission is to review by 1 July 2027 whether member states have built the technical arrangements needed to process European Return Orders through the Schengen Information System, ahead of a possible decision making that recognition mandatory. See `/transposition/` for potential future country-by-country tracking of implementing measures.
+
+</div>
+
+<div class="dsection dsection-links" markdown="1">
 
 ## External links
 
@@ -141,6 +167,12 @@ Not applicable in the traditional sense, as the instrument is a directly applica
 - ECRE, "European Parliament approval of the Return Regulation" (July 2026)
 - Council of Europe, Commissioner for Human Rights, "Observations on the new EU returns framework" (2 March 2026)
 
+</div>
+
+<div class="dsection dsection-alerts" markdown="1">
+
 ## Related alerts
 
 See `/alerts/2026/` and the Return Regulation entry in `/briefs/` for the political framing of this dossier.
+
+</div>

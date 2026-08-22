@@ -736,3 +736,75 @@ html { scroll-behavior: smooth; }
   background: var(--navy);
   flex: none;
 }
+
+/* --- Weather badge (political momentum, manually curated) --- */
+.weather-badge {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-left: 0.4rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+}
+.weather-hot     { background: var(--red-bg); color: var(--red); border-color: var(--red); }
+.weather-warming { background: #fbeedd; color: #a1631a; border-color: #d99a3c; }
+.weather-stable  { background: var(--green-bg); color: var(--green); border-color: var(--green); }
+.weather-cooling { background: #eef2f6; color: var(--blue); border-color: var(--blue); }
+
+/* --- Why it matters --- */
+.why-matters {
+  background: var(--panel);
+  border-left: 3px solid var(--navy);
+  border-radius: 4px;
+  padding: 0.9rem 1.1rem;
+  margin: 1rem 0;
+}
+.why-matters-label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.4rem;
+}
+.why-matters-text { font-size: 0.95rem; margin: 0 0 0.6rem; }
+.why-matters-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* --- What happens next --- */
+.whats-next {
+  background: var(--sand-light);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  margin: 1.4rem 0;
+  font-size: 0.9rem;
+}
+.whats-next-label {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--sand);
+  margin-bottom: 0.5rem;
+}
+.whats-next p { margin: 0.4rem 0; }
+.whats-next-then { color: var(--dusk); }
+
+/* --- Weather badge inside directive swatch grid --- */
+.swatch-weather {
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+  opacity: 0.9;
+}

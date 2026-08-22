@@ -20,6 +20,16 @@
     </nav>
   </header>
 
+  {% if page.layout == "directive" %}
+
+  <div class="dashboard dashboard-directive">
+    <main class="site-content site-content-wide">
+      {{ content }}
+    </main>
+  </div>
+
+  {% else %}
+
   <div class="dashboard">
     <aside class="sidebar">
       <h3>Directives</h3>
@@ -59,6 +69,8 @@
       {% endif %}
     </aside>
   </div>
+
+  {% endif %}
 
   <footer class="site-footer">
     <p>Silvia Talavera Lodos · <a href="https://stalaveralodos-ux.github.io/s.talaveralodos">Main portfolio</a></p>

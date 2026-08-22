@@ -5,14 +5,27 @@ layout: default
   <header>
     <span class="tag tag-institutional">{{ page.short_name }}</span>
     {% if page.status_tag %}<span class="tag tag-{{ page.status_tag }}">{{ page.status_tag | capitalize }}</span>{% endif %}
+    {% if page.weather_temp %}<span class="weather-badge weather-{{ page.weather_temp }}">{{ page.weather_icon }} {{ page.weather_temp | capitalize }}{% if page.momentum %} · {{ page.momentum }}/100{% endif %}</span>{% endif %}
     <h1>{{ page.title }}</h1>
     <p style="color: var(--muted); font-size: 0.85rem;">Last updated {{ page.date_updated | date: "%d %B %Y" }}</p>
   </header>
 
+  {% if page.why_matters %}
+  <div class="why-matters">
+    <div class="why-matters-label">Why it matters</div>
+    <p class="why-matters-text">{{ page.why_matters }}</p>
+    <div class="why-matters-scores">
+      {% if page.impact %}<span><strong>Impact:</strong> {{ page.impact }}</span>{% endif %}
+      {% if page.political_sensitivity %}<span><strong>Political sensitivity:</strong> {{ page.political_sensitivity }}</span>{% endif %}
+      {% if page.implementation_difficulty %}<span><strong>Implementation difficulty:</strong> {{ page.implementation_difficulty }}</span>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
   <div class="info-grid">
     {% if page.status %}
     <div class="info-card">
-      <div class="info-label">Estado actual</div>
+      <div class="info-label">Estado legal</div>
       <div class="info-value">{{ page.status }}</div>
     </div>
     {% endif %}
@@ -56,6 +69,26 @@ layout: default
   <div class="directive-content">
     {{ content }}
   </div>
+
+  {% if page.next_milestone or page.next_steps %}
+  <div class="whats-next">
+    <div class="whats-next-label">What happens next</div>
+    {% if page.next_milestone %}
+    <p class="whats-next-milestone"><strong>Next milestone:</strong> {{ page.next_milestone }}</p>
+    {% endif %}
+    {% if page.next_steps %}
+    <p class="whats-next-then"><strong>Then:</strong>
+      {% for step in page.next_steps %}&rarr; {{ step }}{% unless forloop.last %} &nbsp; {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+    {% if page.expected_impact %}<p><strong>Expected impact:</strong> {{ page.expected_impact }}</p>{% endif %}
+    {% if page.derail_risks %}
+    <p><strong>What could derail it:</strong>
+      {% for risk in page.derail_risks %}{{ risk }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
 
   <footer class="brief-footer">
     <a href="{{ '/directives/' | relative_url }}">&larr; Back to all directives</a>

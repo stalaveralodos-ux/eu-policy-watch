@@ -1224,3 +1224,129 @@ html { scroll-behavior: smooth; }
 #whats-next, #open-questions, #why-matters {
   scroll-margin-top: 56px;
 }
+
+/* =========================================================
+   Monthly digest (Briefs archive)
+   ========================================================= */
+
+.digest-hero {
+  background: var(--navy);
+  border-radius: 14px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.6rem;
+}
+.digest-hero .tag { color: #fff; margin-bottom: 0.6rem; }
+.digest-hero h1 {
+  color: var(--cream);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin: 0.2rem 0 0.6rem;
+}
+.digest-headline {
+  color: rgba(246,239,226,0.9);
+  font-size: 1.02rem;
+  max-width: 60ch;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.digest-section { margin-bottom: 1.8rem; }
+
+.mover-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.mover-card {
+  display: block;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--sand);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.mover-card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(36,53,42,0.08);
+}
+.mover-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.mover-card-name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--navy);
+}
+.mover-card-text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--text);
+}
+
+.steady-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+.steady-list li {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+  break-inside: avoid;
+}
+.steady-list a { color: var(--dusk); font-weight: 600; }
+@media (max-width: 640px) { .steady-list { columns: 1; } }
+
+/* --- Archive index: grid of month cards --- */
+.digest-archive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.1rem;
+}
+.digest-archive-card {
+  display: block;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1.3rem 1.4rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.digest-archive-card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(36,53,42,0.08);
+}
+.digest-archive-month {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+.digest-archive-headline {
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin: 0 0 0.7rem;
+  line-height: 1.5;
+}
+.digest-archive-count {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--sand);
+}

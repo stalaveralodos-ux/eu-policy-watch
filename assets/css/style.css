@@ -734,13 +734,23 @@ html { scroll-behavior: smooth; }
 .actor-group-external .actor-avatar,
 .actor-group-external .actor-group-heading { --accent: var(--green); }
 
-/* --- Actor detail page header --- */
-.actor-page header {
+/* --- Actor detail page hero, matches the directive hero band --- */
+.actor-hero {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.2rem;
+  gap: 1.2rem;
+  background: var(--navy);
+  border-radius: 14px;
+  padding: 1.6rem 1.8rem;
+  margin-bottom: 1.6rem;
 }
+.actor-hero-text h1 {
+  color: var(--cream);
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin: 0.35rem 0 0;
+}
+.actor-hero-text .tag { color: #fff; }
 .actor-page .actor-avatar-lg {
   width: 4.2rem;
   height: 4.2rem;
@@ -751,8 +761,8 @@ html { scroll-behavior: smooth; }
   font-family: var(--font-serif);
   font-weight: 700;
   font-size: 1.5rem;
-  color: #fff;
-  background: var(--navy);
+  color: var(--navy);
+  background: var(--cream);
   flex: none;
 }
 

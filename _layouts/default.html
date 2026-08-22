@@ -46,12 +46,13 @@
 
     <aside class="rail">
       <h3>Latest alerts</h3>
-      {% assign recent_alerts = site.pages | where_exp: "p", "p.path contains '/alerts/'" | where_exp: "p", "p.title != nil" | sort: 'date' | reverse %}
+      {% assign recent_alerts = site.pages | where_exp: "p", "p.url contains '/alerts/'" | where_exp: "p", "p.title != nil" | where_exp: "p", "p.url != '/eu-policy-watch/alerts/'" | sort: 'date' | reverse %}
       {% for alert in recent_alerts limit: 5 %}
-        <div class="alert-box">
+        <a class="alert-box" href="{{ alert.url | relative_url }}">
+          {% if alert.directive %}<span class="tag tag-alert" style="margin-bottom:0.3rem;">{{ alert.directive }}</span><br>{% endif %}
           {{ alert.title }}
           <span class="alert-date">{{ alert.date | date: "%d %b %Y" }}</span>
-        </div>
+        </a>
       {% endfor %}
       {% if recent_alerts.size == 0 %}
         <p style="font-size:0.8rem; color: var(--muted);">No alerts published yet.</p>

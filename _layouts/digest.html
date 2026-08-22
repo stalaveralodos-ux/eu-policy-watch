@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<article class="digest">
+
+  <header class="digest-hero">
+    <span class="tag tag-neutral">Monthly digest</span>
+    <h1>{{ page.title }}</h1>
+    <p class="digest-headline">{{ page.headline }}</p>
+  </header>
+
+  {% if page.movers %}
+  <div class="digest-section">
+    <div class="section-kicker">What moved this month</div>
+    <div class="mover-grid">
+      {% for m in page.movers %}
+      <a class="mover-card" href="{{ m.url | relative_url }}">
+        <div class="mover-card-head">
+          <span class="mover-card-name">{{ m.directive }}</span>
+          {% if m.weather %}<span class="weather-badge weather-{{ m.weather }}">{{ m.weather | capitalize }}</span>{% endif %}
+        </div>
+        <p class="mover-card-text">{{ m.summary }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if page.steady %}
+  <div class="digest-section">
+    <div class="section-kicker">Steady — no dated development this month</div>
+    <ul class="steady-list">
+      {% for s in page.steady %}
+      <li><a href="{{ s.url | relative_url }}">{{ s.directive }}</a> — {{ s.note }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page.watch_next %}
+  <div class="digest-section whats-next">
+    <div class="whats-next-label">Watch next month</div>
+    <p>{{ page.watch_next }}</p>
+  </div>
+  {% endif %}
+
+  <div class="brief-content">
+    {{ content }}
+  </div>
+
+  <footer class="brief-footer">
+    <a href="{{ '/briefs/' | relative_url }}">&larr; All months</a>
+  </footer>
+</article>

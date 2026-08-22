@@ -1,17 +1,67 @@
----
-layout: default
-title: Alerts
-permalink: /alerts/
----
-## Alerts
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}EU Policy Watch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">EU Policy Watch</a>
+    <nav class="site-nav">
+      <a href="{{ '/directives/' | relative_url }}">Directives</a>
+      <a href="{{ '/actors/' | relative_url }}">Actors</a>
+      <a href="{{ '/briefs/' | relative_url }}">Briefs</a>
+      <a href="https://stalaveralodos-ux.github.io/s.talaveralodos">Portfolio &rarr;</a>
+    </nav>
+  </header>
 
-<ul class="brief-list">
-{% assign all_alerts = site.pages | where_exp: "p", "p.path contains '/alerts/'" | where_exp: "p", "p.title != nil" | sort: 'date' | reverse %}
-{% for alert in all_alerts %}
-  <li>
-    <span class="tag tag-alert">{{ alert.directive }}</span>
-    <a href="{{ alert.url | relative_url }}">{{ alert.title }}</a>
-    <span class="brief-list-date">{{ alert.date | date: "%d %b %Y" }}</span>
-  </li>
-{% endfor %}
-</ul>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h3>Directives</h3>
+      <ul>
+        <li><a href="{{ '/directives/csddd/' | relative_url }}">CSDDD</a></li>
+        <li><a href="{{ '/directives/csrd/' | relative_url }}">CSRD</a></li>
+        <li><a href="{{ '/directives/taxonomy/' | relative_url }}">EU Taxonomy</a></li>
+        <li><a href="{{ '/directives/esrs/' | relative_url }}">ESRS</a></li>
+        <li><a href="{{ '/directives/sfdr/' | relative_url }}">SFDR</a></li>
+        <li><a href="{{ '/directives/ppwr/' | relative_url }}">PPWR</a></li>
+      </ul>
+      <h3>Sections</h3>
+      <ul>
+        <li><a href="{{ '/actors/' | relative_url }}">Actors</a></li>
+        <li><a href="{{ '/alerts/' | relative_url }}">Alerts</a></li>
+        <li><a href="{{ '/sector-impact/' | relative_url }}">Sector impact</a></li>
+        <li><a href="{{ '/briefs/' | relative_url }}">Briefs</a></li>
+      </ul>
+    </aside>
+
+    <main class="site-content">
+      {{ content }}
+    </main>
+
+    <aside class="rail">
+      <h3>Latest alerts</h3>
+      {% assign recent_alerts = site.pages | where_exp: "p", "p.url contains '/alerts/'" | where_exp: "p", "p.title != nil" | where_exp: "p", "p.url != '/eu-policy-watch/alerts/'" | sort: 'date' | reverse %}
+      {% for alert in recent_alerts limit: 5 %}
+        <a class="alert-box" href="{{ alert.url | relative_url }}">
+          {% if alert.directive %}<span class="tag tag-alert" style="margin-bottom:0.3rem;">{{ alert.directive }}</span><br>{% endif %}
+          {{ alert.title }}
+          <span class="alert-date">{{ alert.date | date: "%d %b %Y" }}</span>
+        </a>
+      {% endfor %}
+      {% if recent_alerts.size == 0 %}
+        <p style="font-size:0.8rem; color: var(--muted);">No alerts published yet.</p>
+      {% endif %}
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Silvia Talavera Lodos · <a href="https://stalaveralodos-ux.github.io/s.talaveralodos">Main portfolio</a></p>
+  </footer>
+</body>
+</html>
